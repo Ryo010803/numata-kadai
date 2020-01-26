@@ -1,0 +1,47 @@
+@media(max-width: 590px){
+#wrapper{
+min-width:0px;
+
+}
+
+
+.left {
+    width: 100%;
+    float: none;
+}
+.right {
+    width: 100%;
+    float: none;
+    padding: 1% 0%;
+}
+.footer-left{
+float:none;
+width:100%;
+text-align:center;
+padding:2% 2%;
+}
+.footer-right{
+float:none;
+width:100%;
+text-align:center;
+padding:2% 2%;
+}
+.footer-left h2{
+color:#888888;
+font-size:5vw;
+}
+.footer-left p{
+color:#888888;
+font-size:3vw;
+}
+.block1-left{
+width:100%;
+float:none;
+}
+.block1-right{
+width:100%;
+float:none;
+}
+
+
+}

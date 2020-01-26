@@ -1,0 +1,80 @@
+#wrapper{
+ width:100vw;
+ height:100vh;
+ background-image:url(background-image.jpg);
+ background-position:center;
+ background-size:cover;
+}
+
+.practice{
+height:100vh;
+}
+.withyou{
+background-color:black;
+color:white;
+text-align:center;
+float:left;
+width:50%;
+height:100vh;
+
+}
+
+.withyou h2{
+margin-top:3%:
+
+}
+.withyou h3{
+margin-top:3%;
+}
+
+.free{
+ width:50%;
+ height:100vh;
+ background-image:url(surf.jpg);
+ background-position:center;
+ background-size:cover;
+ float:left;
+}
+
+
+#menu ul li{
+ background-color:brown;
+ color:white;
+ width:15%;
+ height:30%;
+ float:left;
+ text-align:center;
+ font-size:10px;
+ list-style:none;
+}
+
+.span{
+display:block;
+}
+
+
+
+.picture{
+clear:both;
+text-align:center;
+}
+
+.title span{
+font-size:2em;
+margin-left:3%;
+
+}
+
+
+
+.eat ul li{
+float:left;
+font-size:2em;
+text-align:center;
+list-style:none;
+width:30%;
+}
+
+.eat img{
+width:100%;
+}

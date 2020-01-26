@@ -1,0 +1,16 @@
+#menu ul li{
+ background-color:brown;
+ color:white;
+ width:15%;
+ height:30%;
+ float:left;
+ text-align:center;
+ font-size:10px;
+ list-style:none;
+}
+
+.ryo{
+width:30%;
+height:30%;
+text-align:center;
+}

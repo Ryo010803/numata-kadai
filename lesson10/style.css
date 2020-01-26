@@ -1,0 +1,330 @@
+.wrapper{
+width:100vw;
+}
+
+#doutor{
+width:100vw;
+height:10vh;
+padding:0% 1%;
+}
+
+.left{
+display:inline-block;
+margin-left:10vw;
+text-align:center;
+float:left;
+}
+.right{
+float:left;
+padding:1% 1%;
+margin-left:22vw;
+}
+
+.question ul li{
+color:black;
+display:inline-block;
+text-align:center;
+list-style:none;
+margin-left:5vw;
+border-right:5px solid #C0C0C0;
+}
+.question ul li:hover{
+background-color:black;
+}
+
+.soccer{
+clear:both;
+background-color:#996633;
+width:100vw;
+height:10vh;
+
+}
+.soccer ul li{
+float:left;
+width:13vw;
+color:#FFF;
+text-align:center;
+font-size:5px;
+list-style:none;
+padding:1% 1%;
+}
+
+.soccer ul li span{
+font-size:2px;
+color:#CC9900;
+}
+.soccer ul li:hover{
+background-color:#A0522D;
+}
+
+
+.autumn img{
+height:50vh;
+width:80vw;
+margin-left:10vw;
+}
+.info{
+padding:1% 1%;
+margin-left:10vw;
+}
+.season{
+background-color:#fdf8ec;
+height:120vh;}
+
+.recomend p{
+padding:5% 1% 1% 1%;
+border-bottom:3px solid #000000;
+text-align:center;
+font-size:19px;
+
+}
+.recomend p  span{
+color:#ad8c47;
+text-align:center;
+font-size:2px;}
+
+
+
+.sweets ul li{
+float:left;
+width:20vw;
+margin-left:7vw;
+text-align:center;
+list-style:none;
+}
+.button{
+width:100vw;
+margin-top:80vh;
+text-align:center;
+}
+.button a{
+border:none;
+padding:2% 2%;
+background-color:#3e2800;
+color:white;
+}
+.sweets ul li a img:hover{
+background-color:#C0C0C0;
+}
+.button a:hover{
+background-color:#C0C0C0;
+
+}
+
+.name p{
+padding:5% 1% 1% 1%;
+border-bottom:1px solid #ad8c47;
+text-align:center;
+font-size:19px;
+
+}
+.name p  span{
+color:#ad8c47;
+text-align:center;
+font-size:2px;}
+
+
+#menu ul li{
+float:left;
+width:20vw;
+margin-left:7vw;
+text-align:center;
+list-style:none;
+}
+
+.center{
+width:100vw;
+margin-top:170vh;
+text-align:center;
+}
+
+.center a{
+border:none;
+padding:2% 2%;
+background-color:#FFF;
+color:#000;
+}
+.center ul li a img:hover{
+background-color:#FFFFFF;
+}
+.center a:hover{
+background-color:#FFFFFF;
+}
+
+.campaign{
+background-color:#fdf8ec;
+height:100vh;}
+
+.thank p{
+padding:5% 1% 1% 1%;
+border-bottom:3px solid #000000;
+text-align:center;
+font-size:19px;
+
+}
+.thank p  span{
+color:#ad8c47;
+text-align:center;
+font-size:2px;}
+
+.giftdoutor ul li{
+float:left;
+width:20vw;
+margin-left:7vw;
+text-align:center;
+list-style:none;
+}
+
+.information p{
+padding:5% 1% 1% 1%;
+border-bottom:1px solid #ad8c47;
+text-align:center;
+font-size:19px;
+
+}
+.information p span{
+color:#ad8c47;
+text-align:center;
+font-size:2px;}
+
+.purchase ul li{
+list-style:none;
+margin-left:10vw;
+
+}
+.purchase p span{
+border-bottom:dotted 2px #000000;
+padding:1% 20% 1% 1%;
+
+}
+.purchase ul li p span a{
+color:#ad8c47;
+text-align:center;
+}
+
+
+.good p{
+padding:5% 1% 1% 1%;
+border-bottom:3px solid #000000;
+text-align:center;
+font-size:19px;
+
+
+}
+.good p  span{
+color:#ad8c47;
+text-align:center;
+font-size:2px;
+
+}
+
+.rakuraku ul li{
+float:left;
+width:20vw;
+margin-left:7vw;
+text-align:center;
+list-style:none;
+}
+.tenpo{
+background-image:url(gazou.jpg);
+background-size:cover;
+background-position:center;
+margin-top:70vh;
+}
+
+.jyouhou p{
+padding:5% 1% 1% 1%;
+border-bottom:3px solid #000000;
+text-align:center;
+font-size:19px;
+}
+.jyouhou p span{
+color:#000000;
+text-align:center;
+font-size:2px;
+}
+
+.kensaku a{
+border:none;
+padding:2% 2%;
+background-color:#3e2800;
+color:white;
+margin-left:47vw;
+}
+
+.kensaku a:hover{
+background-color:#C0C0C0;
+}
+
+.write p{
+padding:5% 1% 1% 1%;
+border-bottom:3px solid #000000;
+text-align:center;
+font-size:19px;
+}
+
+.write p span{
+color:#000000;
+text-align:center;
+font-size:2px;
+}
+
+.bosyuu{
+float:left;
+background-color:#3e2800;
+color:#FFF;
+height:32.5vh;
+margin-left:40vw;
+}
+.bosyuu p{
+margin-top:15vh;
+}
+.person{
+float:left;
+}
+
+.sns{
+clear:both;
+margin-top:10vh;
+margin-left:45vw;
+}
+.twitter{
+text-align:center;
+float:left;
+text-align:center;
+}
+
+.facebook{
+float:left;
+
+}
+.facebook img{
+margin-left:2vw;
+}
+.facebook img:hover{
+background-color:#C0C0C0;
+}
+#footer{
+width:100vw;
+height:10vh;
+background-color:#ad8c47;
+margin-top:20vh;
+}
+
+
+#footer ul li{
+float:left;
+width:11vw;
+text-align:center;
+color:#000000;
+list-style:none;
+padding:1% 1%;
+}
+
+.doutorcoffee{
+text-align:center;
+margin-top:10vh;
+}
+.doutorcoffee p span{
+color:#ad8c47;
+}
