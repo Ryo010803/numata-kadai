@@ -1,0 +1,245 @@
+.wrapper{
+max-width:1200px;
+}
+.menu{
+margin-top:2%;
+border:1px solid;
+}
+.menu-left{
+width:33%;
+float:left;
+height:50vh;
+}
+.menu-left-up{
+border-bottom:1px solid;
+width:100%;
+height:10vh;
+}
+.menu-left-up:hover{
+color:black;
+}
+.up-left{
+width:50%;
+float:left;
+padding:2% 1%;
+line-height:2;
+}
+.up-left p{
+font-size:17px;
+text-align:center;
+}
+.up-right{
+width:50%;
+float:left;
+padding:2% 1%;
+line-height:2;
+border-left:1px solid;
+}
+.up-right h3{
+font-size:19px;
+text-align:center;
+}
+.up-right p{
+font-size:12px;
+text-align:center;
+}
+.aaa{
+height:40vh;
+padding:2% 2%;
+}
+.menu-down{
+background-image:url(img/history-human1.jpg);
+background-size:cover;
+background-position:center;
+height:38vh;
+position:relative;
+}
+.menu-down p{
+line-height:2;
+color:#fff;
+text-orientation:upright;
+-webkit-writing-mode: vertical-rl;
+position:absolute;
+padding:18% 50%
+}
+.menu-middle{
+width:33%;
+float:left;
+height:50vh;
+border-left:1px solid;
+}
+.menu-middle-up{
+border-bottom:1px solid;
+width:100%;
+height:10vh;
+}
+.middle-down{
+height:40vh;
+}
+.menu-right{
+width:33%;
+float:left;
+height:50vh;
+border-left:1px solid;
+}
+.menu-right-up{
+border-bottom:1px solid;
+width:100%;
+height:10vh;
+}
+.right-up-left{
+width:33%;
+float:left;
+padding:5% 3%;
+text-align:center;
+}
+.right-up-left i{
+font-size:30px;
+}
+.right-up-naka{
+width:33%;
+float:left;
+padding:6% 4%;
+}
+.right-up-naka1{
+float:left;
+width:50%;
+text-align:center;
+}
+.right-up-naka1 p{
+font-size:20px;
+}
+.right-up-naka2{
+float:left;
+width:50%;
+text-align:center;
+}
+
+.right-up-naka2 i{
+font-size:20px;
+}
+.right-up-right{
+width:33%;
+float:left;
+padding:6% 7%;
+}
+
+.zdo_drawer_button * {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  font: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-align: left;
+  text-decoration: none;
+  list-style: none;
+}
+
+.zdo_drawer_button {
+  display: block;
+  padding: 0;
+  width: 30px;
+  height: 20px;
+  position: relative;
+  background: none;
+  border: none;
+  text-align: center;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  outline: none;
+}
+
+.zdo_drawer_button .zdo_drawer_bar {
+  display: block;
+  width: 42px;
+  height: 2px;
+  transition: all 0.2s;
+  transform-origin: 0% 0%;
+  transform: translateY(-50%);
+  position: absolute;
+  left: 0;
+}
+
+.zdo_drawer_button .zdo_drawer_bar1 {
+  top: 0;
+}
+
+.zdo_drawer_button .zdo_drawer_bar2 {
+  top: 50%;
+}
+
+.zdo_drawer_button .zdo_drawer_bar3 {
+  top: 100%;
+}
+
+.zdo_drawer_button.active .zdo_drawer_bar {
+  width: 36.77px;
+  left: 8px
+}
+
+.zdo_drawer_button.active .zdo_drawer_bar1 {
+  transform: rotate(0.7853981633974483rad) translateY(-50%);
+  top: 0px
+}
+
+.zdo_drawer_button.active .zdo_drawer_bar2 {
+  opacity: 0;
+}
+
+.zdo_drawer_button.active .zdo_drawer_bar3 {
+  transform: rotate(-0.7853981633974483rad) translateY(-50%);
+  top: calc(100% - 0px)
+}
+
+.zdo_drawer_button.active .zdo_drawer_menu_text {
+  display: none;
+}
+
+.zdo_drawer_button.active .zdo_drawer_close {
+  display: block;
+}
+
+.zdo_drawer_text {
+  width: 100%;
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  text-align: center;
+  font-size: 10px;
+}
+
+.zdo_drawer_close {
+  letter-spacing: 0.08em;
+  display: none;
+}
+
+/*+++ Default Button Color +++*/
+  .zdo_drawer_button {
+  color: #000;
+}
+
+.zdo_drawer_button .zdo_drawer_bar {
+  background-color: #000;
+}
+.menu-down-right{
+background-image:url(img/history-human2.jpg);
+background-size:cover;
+background-position:center;
+height:38vh;
+position:relative;
+}
+.menu-down-right p{
+line-height:2;
+color:#fff;
+text-orientation:upright;
+-webkit-writing-mode: vertical-rl;
+position:absolute;
+padding:18% 50%
+}
