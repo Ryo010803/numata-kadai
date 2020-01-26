@@ -1,0 +1,52 @@
+<!doctype html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<title></title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+$(function(){
+ $('.mein img').on('click',function(){
+  $('.mein p').css('color','red');
+});
+  $(window).scroll(function(){
+   console.log($(this).scrollTop());
+  if($(this).scrollTop() >100){
+   $('img').fadeOut(2000);
+   }
+
+  });
+});
+</script>
+<body>
+<div id="wrapper">
+ <div class="head">
+   <h1>Jqueryについて</h1>
+ </div>
+<!--head-->
+ <div class="mein">
+  <img src="lesson13-index-1.jpg">
+    <h2>特徴</h2>
+     <p>htmlに動きを付け加えることができる</p>
+  <img src="lesson13-index-1.jpg">
+    <h2>特徴</h2>
+     <p>htmlに動きを付け加えることができる</p>
+  <img src="lesson13-index-1.jpg">
+    <h2>特徴</h2>
+     <p>htmlに動きを付け加えることができる</p>
+  <img src="lesson13-index-1.jpg">
+    <h2>特徴</h2>
+     <p>htmlに動きを付け加えることができる</p>
+ </div>
+<!--mein-->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.7479746645863!2d139.7454329!3d35.6585805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bbd9009ec09%3A0x481a93f0d2a409dd!2z5p2x5Lqs44K_44Ov44O8!5e0!3m2!1sja!2sjp!4v1575775751195!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZVscKIECUS8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+</div>
+<!--wrapper-->
+</body>
+</html>

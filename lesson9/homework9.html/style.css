@@ -1,0 +1,39 @@
+#wrapper{
+width:100%;
+}
+.menu{
+width:100%;
+}
+.menu ul{
+
+position:fixed;
+top:0;
+z-index:999;
+width:100%;
+padding:2% 0%;
+display:table;
+}
+
+
+.menu ul li{
+font-size:15px;
+display:table-cell;
+width:23%;
+height:100px;
+vertical-align:middle;
+text-align:center;
+}
+
+#top{
+background-image:url(sun.jpg);
+background-position:center;
+background-size:cover;
+padding:25% 0%;
+}
+
+.content img{
+width:100%;
+float:left;
+}
+
+

@@ -1,0 +1,16 @@
+.coffee{
+text-align:center;
+font-size:40px;
+}
+.starbucks{
+text-align:center;
+font-size:30px;
+}
+.starbucks h2{
+padding:3% 0%;
+}
+.starbucks img{
+width:50%;
+}
+.starbucks iframe{
+width:50%;}

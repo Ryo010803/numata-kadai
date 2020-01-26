@@ -1,0 +1,18 @@
+i{
+color:red;
+font-size:100px;
+}
+#wrapper{
+padding:0% 15%;
+}
+
+.block{
+background-color:#000;
+box-shadow:10px 10px 10px 10px red;
+}
+.block h2{
+color:#FFF;
+text-align:center;
+padding:3% 0%;
+text-shadow:10px 10px 10px green;
+}

@@ -1,0 +1,832 @@
+.start{
+width:100vw;
+
+}
+.menjoy{
+text-align:center;
+margin-top:15px;
+margin-bottom:20px;
+}
+.menjoy h2{
+font-size:22px;
+color:rgb(255,0,0);
+}
+
+#menu ul li{
+float:left;
+list-style:none;
+margin-left:1vw;
+margin-right:1vw;
+width:7vw;
+text-align:center;
+}
+#menu ul li:hover{
+color:rgb(255,0,0);
+}
+.page{
+text-align:center;
+
+}
+
+
+
+
+#wrapper{
+clear:both;
+margin-top:10vh;
+margin-left:5vw;
+margin-right:35vw;
+
+}
+
+.heart{
+height:35vh;
+background-image:url(forever.jpg);
+background-position:center;
+background-size:cover;
+}
+.heart h2{
+color:rgb(255,255,255);
+margin-bottom:1vh;
+margin-top:10vh;
+margin-left:5vw;
+}
+
+
+.content{
+margin-top:5vh;
+width:60vw;
+}
+
+.content h2{
+text-align:left;
+}
+.content h2 span{
+font-size:4px;
+margin-left:1vw;
+}
+#book{
+height:25vh;
+
+}
+
+
+.twitter{
+background-image:url(iphone.jpg);
+background-position:center;
+background-size:cover;
+width:25vw;
+height:25vh;
+float:left;
+}
+.line {
+margin-left:2vw;
+width:30vw;
+float:left;
+height:25vh;
+}
+.line h3:hover{
+color:rgb(255,0,0);
+}
+
+.line p{
+font-size:5px;
+}
+.line p span{
+font-size:5px;
+color:rgb(192,192,192);
+}
+
+
+#love{
+height:25vh;
+margin-top:3vh;
+}
+
+
+.doctor{
+background-image:url(doctorlove.jpg);
+background-position:center;
+background-size:cover;
+width:25vw;
+height:25vh;
+float:left;
+}
+.like {
+margin-left:2vw;
+width:30vw;
+float:left;
+height:25vh;
+}
+.like h3:hover{
+color:rgb(255,0,0);
+}
+
+.like p{
+font-size:5px;
+}
+.like p span{
+font-size:5px;
+color:rgb(192,192,192);
+}
+
+
+
+#freelove{
+height:25vh;
+margin-top:3vh;
+}
+
+
+.recommend{
+background-image:url(free.jpg);
+background-position:center;
+background-size:cover;
+width:25vw;
+height:25vh;
+float:left;
+}
+.four {
+margin-left:2vw;
+width:30vw;
+float:left;
+height:25vh;
+}
+.four h3:hover{
+color:rgb(255,0,0);
+}
+
+.four p{
+font-size:5px;
+}
+.four p span{
+font-size:5px;
+color:rgb(192,192,192);
+}
+
+
+
+#rash{
+height:25vh;
+margin-top:3vh;
+}
+
+
+.gookon{
+background-image:url(feeling.jpg);
+background-position:center;
+background-size:cover;
+width:25vw;
+height:25vh;
+float:left;
+}
+.plan {
+margin-left:2vw;
+width:30vw;
+float:left;
+height:25vh;
+}
+.plan h3:hover{
+color:rgb(255,0,0);
+}
+
+.plan p{
+font-size:5px;
+}
+.plan p span{
+font-size:5px;
+color:rgb(192,192,192);
+}
+
+#first{
+height:25vh;
+margin-top:3vh;
+}
+
+.contact{
+background-image:url(handshake.jpg);
+background-position:center;
+background-size:cover;
+width:25vw;
+height:25vh;
+float:left;
+}
+.ten {
+margin-left:2vw;
+width:30vw;
+float:left;
+height:25vh;
+}
+.ten h3:hover{
+color:rgb(255,0,0);
+}
+
+.ten p{
+font-size:5px;
+}
+.ten p span{
+font-size:5px;
+color:rgb(192,192,192);
+}
+
+#introduction{
+height:25vh;
+margin-top:3vh;
+}
+
+.technique{
+background-image:url(fun.jpg);
+background-position:center;
+background-size:cover;
+width:25vw;
+height:25vh;
+float:left;
+}
+.enjoy {
+margin-left:2vw;
+width:30vw;
+float:left;
+height:25vh;
+}
+.enjoy h3:hover{
+color:rgb(255,0,0);
+}
+
+.enjoy p{
+font-size:5px;
+}
+.enjoy p span{
+font-size:5px;
+color:rgb(192,192,192);
+}
+
+
+#second{
+height:25vh;
+margin-top:3vh;
+}
+
+.good{
+background-image:url(impression.jpg);
+background-position:center;
+background-size:cover;
+width:25vw;
+height:25vh;
+float:left;
+}
+.bad {
+margin-left:2vw;
+width:30vw;
+float:left;
+height:25vh;
+}
+.bad h3:hover{
+color:rgb(255,0,0);
+}
+
+.bad p{
+font-size:5px;
+}
+.bad p span{
+font-size:5px;
+color:rgb(192,192,192);
+}
+
+#japan{
+height:25vh;
+margin-top:3vh;
+}
+
+.foreign{
+background-image:url(say.jpg);
+background-position:center;
+background-size:cover;
+width:25vw;
+height:25vh;
+float:left;
+}
+.place {
+margin-left:2vw;
+width:30vw;
+float:left;
+height:25vh;
+}
+.place h3:hover{
+color:rgb(255,0,0);
+}
+
+.place p{
+font-size:5px;
+}
+.place p span{
+font-size:5px;
+color:rgb(192,192,192);
+}
+
+#human{
+height:25vh;
+margin-top:3vh;
+}
+
+.mention{
+background-image:url(sad.jpg);
+background-position:center;
+background-size:cover;
+width:25vw;
+height:25vh;
+float:left;
+}
+.plan {
+margin-left:2vw;
+width:30vw;
+float:left;
+height:25vh;
+}
+.plan h3:hover{
+color:rgb(255,0,0);
+}
+
+.plan p{
+font-size:5px;
+}
+.plan p span{
+font-size:5px;
+color:rgb(192,192,192);
+}
+
+#united{
+height:25vh;
+margin-top:3vh;
+}
+
+.arrows{
+background-image:url(beer.jpg);
+background-position:center;
+background-size:cover;
+width:25vw;
+height:25vh;
+float:left;
+}
+.code {
+margin-left:2vw;
+width:30vw;
+float:left;
+height:25vh;
+}
+.code h3:hover{
+color:rgb(255,0,0);
+}
+
+.code p{
+font-size:5px;
+}
+.code p span{
+font-size:5px;
+color:rgb(192,192,192);
+}
+
+#college{
+height:25vh;
+margin-top:3vh;
+}
+
+.university{
+background-image:url(drink.jpg);
+background-position:center;
+background-size:cover;
+width:25vw;
+height:25vh;
+float:left;
+}
+.school {
+margin-left:2vw;
+width:30vw;
+float:left;
+height:25vh;
+}
+.school h3:hover{
+color:rgb(255,0,0);
+}
+
+.school p{
+font-size:5px;
+}
+.school p span{
+font-size:5px;
+color:rgb(192,192,192);
+}
+
+#why{
+height:25vh;
+margin-top:3vh;
+}
+
+.nishino{
+background-image:url(solitude.jpg);
+background-position:center;
+background-size:cover;
+width:25vw;
+height:25vh;
+float:left;
+}
+.kana {
+margin-left:2vw;
+width:30vw;
+float:left;
+height:25vh;
+}
+.kana h3:hover{
+color:rgb(255,0,0);
+}
+
+.kana p{
+font-size:5px;
+}
+.kana p span{
+font-size:5px;
+color:rgb(192,192,192);
+}
+
+#perfect{
+height:25vh;
+margin-top:3vh;
+}
+
+.check{
+background-image:url(smartphone.jpg);
+background-position:center;
+background-size:cover;
+width:25vw;
+height:25vh;
+float:left;
+}
+.money{
+margin-left:2vw;
+width:30vw;
+float:left;
+height:25vh;
+}
+.money h3:hover{
+color:rgb(255,0,0);
+}
+
+.money p{
+font-size:5px;
+}
+.money p span{
+font-size:5px;
+color:rgb(192,192,192);
+}
+
+#alone{
+height:25vh;
+margin-top:3vh;
+}
+
+.nomi{
+background-image:url(thanks.jpg);
+background-position:center;
+background-size:cover;
+width:25vw;
+height:25vh;
+float:left;
+}
+.izakaya{
+margin-left:2vw;
+width:30vw;
+float:left;
+height:25vh;
+}
+.izakaya h3:hover{
+color:rgb(255,0,0);
+}
+
+.izakaya p{
+font-size:5px;
+}
+.izakaya p span{
+font-size:5px;
+color:rgb(192,192,192);
+}
+
+#kekkon{
+height:25vh;
+margin-top:3vh;
+}
+
+.soudan{
+background-image:url(trouble.jpg);
+background-position:center;
+background-size:cover;
+width:25vw;
+height:25vh;
+float:left;
+}
+.konkatu{
+margin-left:2vw;
+width:30vw;
+float:left;
+height:25vh;
+}
+.konkatu h3:hover{
+color:rgb(255,0,0);
+}
+
+.konkatu p{
+font-size:5px;
+}
+.konkatu p span{
+font-size:5px;
+color:rgb(192,192,192);
+}
+
+#patagonia{
+height:25vh;
+margin-top:3vh;
+}
+
+.camp{
+background-image:url(manner.jpg);
+background-position:center;
+background-size:cover;
+width:25vw;
+height:25vh;
+float:left;
+}
+.surf{
+margin-left:2vw;
+width:30vw;
+float:left;
+height:25vh;
+}
+.surf h3:hover{
+color:rgb(255,0,0);
+}
+
+.surf p{
+font-size:5px;
+}
+.surf p span{
+font-size:5px;
+color:rgb(192,192,192);
+}
+
+#purpose{
+height:25vh;
+margin-top:3vh;
+}
+
+.soccer{
+background-image:url(wine.jpg);
+background-position:center;
+background-size:cover;
+width:25vw;
+height:25vh;
+float:left;
+}
+.foot{
+margin-left:2vw;
+width:30vw;
+float:left;
+height:25vh;
+}
+.foot h3:hover{
+color:rgb(255,0,0);
+}
+
+.foot p{
+font-size:5px;
+}
+.foot p span{
+font-size:5px;
+color:rgb(192,192,192);
+}
+
+#deai{
+height:25vh;
+margin-top:3vh;
+}
+
+.asobo{
+background-image:url(cup.jpg);
+background-position:center;
+background-size:cover;
+width:25vw;
+height:25vh;
+float:left;
+}
+.kutikomi{
+margin-left:2vw;
+width:30vw;
+float:left;
+height:25vh;
+}
+.kutikomi h3:hover{
+color:rgb(255,0,0);
+}
+
+.kutikomi p{
+font-size:5px;
+}
+.kutikomi p span{
+font-size:5px;
+color:rgb(192,192,192);
+}
+
+#true{
+height:25vh;
+margin-top:3vh;
+}
+
+.he{
+background-image:url(kabukicho.jpg);
+background-position:center;
+background-size:cover;
+width:25vw;
+height:25vh;
+float:left;
+}
+.reason{
+margin-left:2vw;
+width:30vw;
+float:left;
+height:25vh;
+}
+.reason h3:hover{
+color:rgb(255,0,0);
+}
+
+.reason p{
+font-size:5px;
+}
+.reason p span{
+font-size:5px;
+color:rgb(192,192,192);
+}
+
+#bar{
+height:25vh;
+margin-top:3vh;
+}
+
+.confirm{
+background-image:url(bartender.jpg);
+background-position:center;
+background-size:cover;
+width:25vw;
+height:25vh;
+float:left;
+}
+.women{
+margin-left:2vw;
+width:30vw;
+float:left;
+height:25vh;
+}
+.women h3:hover{
+color:rgb(255,0,0);
+}
+
+.women p{
+font-size:5px;
+}
+.women p span{
+font-size:5px;
+color:rgb(192,192,192);
+}
+
+#matting{
+height:25vh;
+margin-top:3vh;
+}
+
+.application{
+background-image:url(private.jpg);
+background-position:center;
+background-size:cover;
+width:25vw;
+height:25vh;
+float:left;
+}
+.power{
+margin-left:2vw;
+width:30vw;
+float:left;
+height:25vh;
+}
+.power h3:hover{
+color:rgb(255,0,0);
+}
+
+.power p{
+font-size:5px;
+}
+.power p span{
+font-size:5px;
+color:rgb(192,192,192);
+}
+
+#safe{
+height:25vh;
+margin-top:3vh;
+}
+
+.five{
+background-image:url(pink.jpg);
+background-position:center;
+background-size:cover;
+width:25vw;
+height:25vh;
+float:left;
+}
+.twenty{
+margin-left:2vw;
+width:30vw;
+float:left;
+height:25vh;
+}
+.twenty h3:hover{
+color:rgb(255,0,0);
+}
+
+.twenty p{
+font-size:5px;
+}
+.twenty p span{
+font-size:5px;
+color:rgb(192,192,192);
+}
+
+#dine{
+height:25vh;
+margin-top:3vh;
+}
+
+.new{
+background-image:url(slack.jpg);
+background-position:center;
+background-size:cover;
+width:25vw;
+height:25vh;
+float:left;
+}
+.old{
+margin-left:2vw;
+width:30vw;
+float:left;
+height:25vh;
+}
+.old h3:hover{
+color:rgb(255,0,0);
+}
+
+.old p{
+font-size:5px;
+}
+.old p span{
+font-size:5px;
+color:rgb(192,192,192);
+}
+
+
+
+#read span{
+font-size:2px;
+margin-top:5vh;
+}
+
+
+.infuruenza{
+margin-top:3px;
+width:15vw;
+height:25vh;
+}
+.gazou{
+background-image:url(mail.jpg);
+background-position:center;
+background-size:cover;
+height:18vh;
+}
+.irasuto{
+height:7vh;
+
+}
+
+.eroi{
+margin-top:3px;
+width:15vw;
+height:25vh;
+margin-left:3vw;
+float:left;
+}
+.face{
+background-image:url(cute.jpg);
+background-position:center;
+background-size:cover;
+height:18vh;
+
+}
+.happy{
+height:7vh;
+
+}
