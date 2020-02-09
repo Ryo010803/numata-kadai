@@ -47,15 +47,15 @@ text-align:center;
 .aaa{
 height:50vh;
 padding:2% 2%;
+position:relative;
 }
 .menu-down a img{
 height:45vh;
 width:100%;
-position:relative;
 }
 .menu-down p{
 position:absolute;
-top:120px;
+top:5%;
 left:165px;
 color:#fff;
 text-orientation:upright;
@@ -479,4 +479,37 @@ position:absolute;
 bottom:0px;
 right:0px;
 text-align:right;
+}
+
+
+/*======================
+  萩野編集
+=====================*/
+.hagino{
+ width:50%;
+ border:1px solid #000;
+ padding:3% 5%;
+ height:50vh;
+ display:none;
+ float:left;
+}
+
+.hagino2{
+ border:1px solid #000;
+ padding:3% 5%;
+ height:46vh;
+}
+
+.hagino3{
+ border:1px solid #000;
+ padding:3% 5%;
+ height:42vh;
+ position:relative;
+}
+
+.hagino3 p{
+ transform: rotate(90deg);
+ position:absolute;
+ top:50%;
+ left:15%;
 }

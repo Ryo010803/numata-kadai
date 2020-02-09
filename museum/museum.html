@@ -23,6 +23,16 @@ $(function () {
   $('.zdo_drawer_button').click(function () {
     $(this).toggleClass('active');
   })
+
+  $(".menu3-middle-down1").on("mouseover",function(){
+     $(this).css('display','none');
+     $(".hagino").css('display','block');
+  });
+
+  $(".hagino").on("mouseout",function(){
+     $(this).css('display','none');
+     $(".menu3-middle-down1").css('display','block');
+  });
 })
 </script>
 </head>
@@ -224,9 +234,15 @@ $(function () {
  <div class="menu3-middle-down cf">
 
     <div class="menu3-middle-down1">
- <img src="img/menu3-middle-down1.jpg">
-   <p>Ask Schiele</p>
-
+      <img src="img/menu3-middle-down1.jpg">
+      <p>Ask Schiele</p>
+    </div>
+    <div class="hagino">
+        <div class="hagino2">
+             <div class="hagino3">
+                 <p>萩野編集</p>
+             </div>
+        </div>
     </div>
     <!--menu2-right2-->
     <div class="menu3-middle-down2">
