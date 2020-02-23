@@ -1,6 +1,9 @@
 .wrapper{
 min-width:1200px;
 }
+.numata{
+display:none;
+}
 .head{
 width:100%;
 }
@@ -113,26 +116,22 @@ background-color:#f2ebe6;
 position:relative;
 padding:7% 0%;
 }
-.head3-up{
-padding:5% 0%;
-}
 .head3-up-a{
 float:left;
-position:absolute;
 width:70%;
 text-align:right;
 }
 .head3-up-a h2{
 font-size:30px;
 margin-right:20%;
+margin-bottom:5%;
 }
 .head3-up-b{
 float:left;
 position:absolute;
 right:10%;
 border-radius: 15px;
-border-color:#666;
-border-width:5px;
+border:5px solid #666;
 width:20%;
 text-align:center;
 padding:1% 1%;
@@ -205,10 +204,10 @@ border-right:1px solid #fff;
 color:#f26100;
 }
 .head4-up-2{
-width:33%;
+width:33.5%;
 float:left;
 text-align:center;
-padding:2% 0%;
+padding:2.2% 0%;
 border-bottom:1px solid #fff;
 border-right:1px solid #fff;
 }
@@ -216,10 +215,10 @@ border-right:1px solid #fff;
 color:#badc26;
 }
 .head4-up-3{
-width:33%;
+width:33.5%;
 float:left;
 text-align:center;
-padding:2% 0%;
+padding:2.2% 0%;
 border-bottom:1px solid #fff;
 }
 .head4-up-3 p{
