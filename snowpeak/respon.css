@@ -8,7 +8,7 @@ background-image:url(img/head1.jpg);
 background-size:cover;
 background-position:center;
 width:100%;
-height:80vh;
+height:100vh;
 }
 .slide1-up{
 padding:2% 2%;
@@ -480,6 +480,13 @@ padding:5% 0%;
 display:none;
 padding:6% 0%;
 color:#888;
+}
+
+/*クリックで中身表示*/
+.menu11-a-up h3 input:checked ~ .menu11-a-down ul li {
+    padding: 10px 0;
+    height: auto;
+    opacity: 1;
 }
 .menu11-sns{
 padding:2% 19%;
