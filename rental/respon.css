@@ -2,8 +2,11 @@
 .wrapper{
 min-width:0;
 }
-
-.head2-left-a img{
+.numata{
+display:block;
+padding:3% 30%;
+}
+.numata img{
 width:100%;
 }
 .head-left{
@@ -11,7 +14,6 @@ float:none;
 width:100%;
 position:relative;
 background-color:#badc26;
-height:70vh;
 }
 .aaa{
 width:100%;
@@ -24,7 +26,7 @@ font-size:15px;
 text-align:center;
 }
 .head-left2 h2{
-font-size:40px;
+font-size:6vw;
 letter-spacing:15px;
 text-align:center;
 }
@@ -32,7 +34,9 @@ text-align:center;
 font-size:15px;
 text-align:center;
 }
-
+.bbb{
+padding:0% 0%;
+}
 .head-left4{
 width:100%;
 margin-top:5%;
@@ -41,7 +45,7 @@ background-color:#333;
 text-align:center;
 }
 .head-left4-a{
-float:none;
+float:left;
 width:80%;
 }
 .head-left4-a p{
@@ -50,7 +54,7 @@ text-align:center;
 color:#fff;
 }
 .head-left4-b{
-float:none;
+float:left;
 width:20%;
 }
 .head-left4-b i{
@@ -58,14 +62,128 @@ font-size:18px;
 text-align:left;
 color:#f26100;
 }
-
 .head-left5 img{
 width:100%;
+margin-top:80%;
+}
+.head-left5 {
+    padding: 0% 5%;
+    margin-top: 0%;
+}
+
+.head-right{
+float:none;
+width:100%;
+position:relative;
+background-color:#4cc2dc;
+}
+.head2{
+display:none;
+width:100%;
+padding:3% 0%;
+}
+#head3{
+width:100%;
+background-color:#f2ebe6;
+position:relative;
+padding:7% 0%;
+}
+.head3-up{
+padding:5% 0%;
+}
+.head3-up-a{
+float:none;
+width:100%;
+text-align:center;
+}
+.head3-up-a h2{
+font-size:6vw;
+margin-right:0%;
+}
+.head3-up-b{
+display:none;
+}
+.head3-up-b-1 p{
+float:left;
+width:70%;
+}
+.head3-up-b-2 i{
+float:left;
+width:30%;
+font-size:20px;
+}
+.head3-down{
+width:100%;
+}
+.box{
+float: none;
+width: 100%;
+    
+background-color: #fff;
+    padding: 2% 2%;
+    position: relative;
+}
+.box-up span{
+color:#999;
+}
+.box-center{
+padding:10% 0%;
+line-height:1.5;
+letter-spacing: 2px;
+}
+.box-down{
+position:absolute;
+right:20%;
+letter-spacing: 4px;
+
+}
+.box-down-a{
+float:left;
+}
+.box-down-a i{
+color:#f26100;
+}
+.box-down-b{
+float:left;
+}
+.head4-up{
+display:none;
+}
+.head4-down ul li {
+    float: none;
+    width: 100%;
+    color: #fff;
+    text-align: left;
+    padding: 4% 0%;
+    font-size: 4vw;
+}
+.footer-left {
+    width: 100%;
+    float: none;
+}
+.footer-right {
+    width: 50%;
+    float: none;
+    display: none;
+}
+.footer-left-a {
+    width: 100%;
+    float: none;
+    text-align: center;
 }
 
 
-
-
+.footer-left-a img {
+    width: 55%;
+    padding: 4% 0%;
+}
+.footer-left-b {
+    width: 100%;
+    float: none;
+    text-align: center;
+position: static;
+    top: 0%;
+}
 
 
 
