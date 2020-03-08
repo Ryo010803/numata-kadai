@@ -382,23 +382,12 @@ letter-spacing: 0.3em;
 .menu3-down{
 width:100%;
 }
-.menu3-down ul{
-display:-webkit-box;
-  display:-webkit-flex;
-  display:-ms-flexbox;
-  display:flex;
- -webkit-box-align:center;
-  -webkit-align-items:center;
-  -ms-flex-align:center;
-  align-items:center;
-  -webkit-box-pack: center;
-   -ms-flex-pack: center;
-    justify-content: center;
-}
+
 
 .menu3-down ul li .menu3-down1{
 padding:0% 1%;
 width:25%;
+float:left;
 }
 .menu3-down1-a img{
 width:100%;
