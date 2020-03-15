@@ -37,6 +37,10 @@ $('.body-right2').slick({
   cssEase: 'linear'
 });
 
+$(".zdo_drawer_button").on("click",function(){
+      $(".head-down").toggle();
+     });
+
 });
 </script>
 
@@ -44,10 +48,20 @@ $('.body-right2').slick({
 </head>
 <body>
 <div class="wrapper">
+  <div class="ccc cf">
   <div class="head-up">
   <h1>RYO NUMATA Profile</h1>
   </div>
   <!--head-up-->
+  <button type="button" class="zdo_drawer_button">
+  <span class="zdo_drawer_bar zdo_drawer_bar1"></span>
+  <span class="zdo_drawer_bar zdo_drawer_bar2"></span>
+  <span class="zdo_drawer_bar zdo_drawer_bar3"></span>
+  <span class="zdo_drawer_menu_text zdo_drawer_text">MENU</span>
+  <span class="zdo_drawer_close zdo_drawer_text">CLOSE</span>
+</button>
+  </div>
+  <!--ccc-->
     <div class="head-down cf">
        <a href="myhp.html">Home</a>
        <a href="camp.html">camp</a>
