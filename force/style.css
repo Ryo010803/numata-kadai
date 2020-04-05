@@ -1,0 +1,244 @@
+#wrapper {
+    min-width: 1200px;
+}
+.menu{
+width:100%;
+position:fixed;
+z-index:999;
+background-color: rgba(0, 0, 0, 0);
+display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+ -webkit-box-align:center;
+  -webkit-align-items:center;
+  -ms-flex-align:center;
+  align-items:center;
+  -webkit-box-pack: center;
+   -ms-flex-pack: center;
+    justify-content: center;
+    padding:2% 0%;
+}
+.menu-left{
+width:25%;
+margin-left:5%;
+}
+.menu-left img{
+width:50%;
+}
+.menu-right{
+width:50%;
+margin-left:20%;
+}
+.menu-right ul{
+  display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+   -webkit-box-align:center;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -webkit-box-pack: center;
+     -ms-flex-pack: center;
+      justify-content: center;
+}
+.menu-right ul li{
+width:10%;
+padding:0% 8%;
+font-size:2vw;
+color:#fff;
+font-family:'Shadows Into Light';
+text-align:center;
+}
+.top{
+position:relative;
+}
+.top img{
+width:100%;
+}
+.top2{
+padding:10% 0%;
+}
+.top2-up{
+padding:8% 0%;
+text-align:center;
+}
+.top2-up h3{
+color:#888;
+font-size:4vw;
+line-height:1.5;
+}
+.top2-up h4{
+color:#191970;
+font-size:4vw;
+line-height:1.5;
+}
+.top2-down{
+position:relative;
+display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+ -webkit-box-align:center;
+  -webkit-align-items:center;
+  -ms-flex-align:center;
+  align-items:center;
+  -webkit-box-pack: center;
+   -ms-flex-pack: center;
+    justify-content: center;
+    padding:5% 0%;
+}
+.top2-down-l{
+width:20%;
+position:absolute;
+z-index:1;
+left:3%;
+}
+.top2-down-l p{
+  font-size:25vw;
+  color:#888;
+  font-family: 'Arvo';
+}
+.top2-down-r{
+  width:80%;
+  text-align:center;
+}
+.top2-down-r p{
+font-size:2vw;
+line-height:2;
+}
+
+/*ここからbusiness*/
+.business-up{
+padding:2% 0%;
+text-align:center;
+}
+.business-up p{
+font-size:2vw;
+}
+.business-con{
+background-color:#2d2d3b;
+}
+/*ここからbusiness1*/
+.business1{
+padding:5% 0%;
+width:100%;
+display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+ -webkit-box-align:center;
+  -webkit-align-items:center;
+  -ms-flex-align:center;
+  align-items:center;
+  -webkit-box-pack: center;
+   -ms-flex-pack: center;
+    justify-content: center;
+}
+.business1-l{
+width:40%;
+}
+.business1-l img{
+width:100%;
+}
+.business1-r{
+width:40%;
+margin-left:20%;
+position:relative;
+z-index:1;
+padding:2% 0%;
+}
+.business1-r-up h3{
+color:#fff;
+font-size:3vw;
+font-family: 'Arvo';
+}
+.business1-r-up span{
+color:#fff;
+font-size:1.5vw;
+}
+.business1-r-down{
+padding:10% 0%;
+text-align:left;
+}
+.business1-r-down p{
+color:#fff;
+font-size:1.5vw;
+line-height:2;
+}
+.business1-r-hidden{
+position:absolute;
+z-index:-1;
+bottom:0%;
+left:30%;
+}
+.business1-r-hidden p{
+font-size:35vw;
+color:#888;
+}
+/*ここまでbusiness1*/
+/*ここからbusiness2*/
+.business2{
+padding:5% 0%;
+width:100%;
+display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+ -webkit-box-align:center;
+  -webkit-align-items:center;
+  -ms-flex-align:center;
+  align-items:center;
+  -webkit-box-pack: center;
+   -ms-flex-pack: center;
+    justify-content: center;
+}
+.business2-l{
+width:40%;
+margin-right:20%;
+position:relative;
+z-index:1;
+padding:2% 0%;
+}
+.business2{
+text-align:right;
+}
+.business2-l-up h3{
+color:#fff;
+font-size:3vw;
+font-family: 'Arvo';
+}
+.business2-l-up span{
+color:#fff;
+font-size:1.5vw;
+}
+.business2-l-down{
+padding:10% 0%;
+text-align:right;
+}
+.business2-l-down p{
+color:#fff;
+font-size:1.5vw;
+line-height:2;
+}
+.business2-l-hidden{
+position:absolute;
+z-index:-1;
+bottom:0%;
+right:30%;
+}
+.business2-l-hidden p{
+font-size:35vw;
+color:#888;
+}
+.business2-r{
+width:40%;
+}
+.business2-r img{
+width:100%;
+}
+
+
+
+/*ここまでbusiness*/
