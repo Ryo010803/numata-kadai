@@ -48,7 +48,7 @@ margin-left:20%;
 width:10%;
 padding:0% 9%;
 }
-.menu-right ul li p{
+.menu-right ul li a p{
   font-size:2vw;
   color:#fff;
   font-family:'Shadows Into Light';
@@ -57,7 +57,7 @@ padding:0% 9%;
     display: inline-block;
     text-decoration: none;
 }
-.menu-right ul li p::after {
+.menu-right ul li a p::after {
   position: absolute;
   bottom: -4px;
   left: 0;
@@ -69,7 +69,7 @@ padding:0% 9%;
   transform-origin: left top;
   transition: transform .3s;
 }
-.menu-right ul li p:hover::after {
+.menu-right ul li a p:hover::after {
   transform: scale(1, 1);
 }
 .top{
@@ -327,6 +327,20 @@ display:-webkit-box;
    -ms-flex-pack: center;
     justify-content: center;
 }
+
+
+.business4-con-down:hover {
+	background: #96e9e6;
+	box-shadow: 0 3px 0 #12978d, 0 6px 0 rgba(0,0,0,.2);
+	transform: translateY(3px);
+}
+.business4-con-down:active {
+	color: #ddd;
+	background: #12978d;
+	box-shadow: 0 0 0 #047c71, 0 0 0 rgba(0,0,0,.2);
+	transform: translateY(6px);
+	transition-duration: .1s;
+}
 .business4-con-down-l{
 padding:5% 2%;
 width:70%;
@@ -345,7 +359,174 @@ font-size:1.5vw;
 }
 
 /*ここまでbusiness4*/
+/*ここまでが一つ目終わり*/
 
+/*ここからabout.html(2つ目)*/
+.about-top{
+position:relative;
+}
+.about-top img{
+width:100%;
+}
+.about-top-write{
+position:absolute;
+top:36%;
+right:10%;
+
+}
+.about-top-write h3{
+font-size:10vw;
+color:#fff;
+font-family: 'Arvo';
+line-height:1.5;
+}
+.about-top-write p{
+  font-size:5vw;
+  color:#fff;
+  font-family: 'Arvo';
+
+}
+.about-content{
+padding:3% 0%;
+}
+.about-con-up{
+padding:3% 0%;
+text-align:center;
+}
+.about-con-up h3{
+font-size:3vw;
+line-height:1.5;
+}
+.about-con-down{
+padding:3% 0%;
+text-align:center;
+}
+.about-con-down p{
+font-size:1.5vw;
+line-height:2;
+letter-spacing:0.2em;
+}
+
+.about-top2{
+position:relative;
+}
+.about-top2 img{
+width:100%;
+height:70vh;
+}
+.about-top2-write{
+position:absolute;
+top:40%;
+left:35%;
+}
+.about-top2-write p{
+  font-size:3vw;
+  color:#fff;
+  font-family: 'Arvo';
+  line-height:1.5;
+}
+
+.about-content2{
+width:100%;
+}
+.about-con2-up{
+padding:3% 0%;
+text-align:center;
+}
+.about-con2-up h3{
+font-size:3vw;
+}
+.aaa{
+padding:3% 15%;
+}
+.about-con2-down{
+  border:1px solid #E3E3E3;
+  text-align:center;
+  display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+   -webkit-box-align:center;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -webkit-box-pack: center;
+     -ms-flex-pack: center;
+      justify-content: center;
+
+}
+.about-con2-down-l{
+width:30%;
+background-color: #F2F2F2;
+text-align: center;
+padding:5% 3%;
+border-right:1px solid #E3E3E3;
+border-bottom:1px solid #E3E3E3;
+}
+.about-con2-down-l p{
+font-size:1.5vw;
+}
+.about-con2-down-r{
+width:70%;
+text-align: center;
+padding:2% 3%;
+}
+.about-con2-down-r p{
+font-size:1.5vw;
+line-height:1.5;
+}
+.about-con2-down-l-2{
+width:30%;
+background-color: #F2F2F2;
+text-align: center;
+padding:6% 3%;
+border-right:1px solid #E3E3E3;
+border-bottom:1px solid #E3E3E3;
+}
+.about-con2-down-l-2 p{
+font-size:1.5vw;
+}
+
+.about-content3{
+margin-top:5%;
+}
+.about-con3-up{
+margin-top: 3%;
+text-align: center;
+}
+.about-con3-up-1 p{
+font-size:1.5vw;
+}
+.about-con3-up-2{
+padding:2% 0%;
+text-align: center;
+}
+.about-con3-up-2 p{
+font-size:1.5vw;
+}
+
+.about-con3-down iframe{
+width:100%;
+height:50vh;
+fransform: scale(1.1);
+cursor: pointer;
+filter: grayscale(100%);
+transition-duration: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ここまでabout.html(2つ目)*/
 
 
 /*ここからfooter*/
@@ -383,7 +564,7 @@ margin-top:3%;
 width:20%;
   text-align:center;
 }
-.footer-down ul li p{
+.footer-down ul li a p{
   font-size:2vw;
   color:#fff;
   font-family:'Shadows Into Light';
@@ -391,7 +572,7 @@ width:20%;
     display: inline-block;
     text-decoration: none;
 }
-.footer-down ul li p::after {
+.footer-down ul li a p::after {
   position: absolute;
   bottom: -4px;
   left: 0;
@@ -403,7 +584,7 @@ width:20%;
   transform-origin: left top;
   transition: transform .3s;
 }
-.footer-down ul li p:hover::after {
+.footer-down ul li a p:hover::after {
   transform: scale(1, 1);
 }
 
@@ -415,8 +596,6 @@ text-align:center;
 .footer-copy p{
 font-size:1vw;
 }
-
-
 
 
 
