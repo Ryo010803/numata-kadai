@@ -1,3 +1,455 @@
+@media(max-width:590px){
+
 #wrapper {
     min-width: 0;
+}
+
+.menu{
+width:100%;
+position:fixed;
+z-index:999;
+background-color: rgba(0, 0, 0, 0);
+padding:2% 0%;
+}
+
+
+.menu-left{
+float:left;
+width:50%;
+margin-left:20%;
+}
+.menu-left img{
+width:50%;
+}
+.menu-right{
+display:none;
+}
+.respon-open-menu{
+display:block;
+width:30%;
+}
+.respon-menu-right{
+float:left;
+display:none;
+width:50%;
+margin-left:10%;
+}
+.respon-menu-right ul{
+  display:block;
+width:100%;
+}
+.respon-menu-right ul li{
+width:100%;
+padding:0% 9%;
+}
+.respon-menu-right ul li a p{
+  font-size:2vw;
+  color:#fff;
+  font-family:'Shadows Into Light';
+  text-align:center;
+  position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.top2{
+padding:10% 0%;
+}
+.top2-up{
+padding:8% 0%;
+text-align:center;
+}
+.top2-up h3{
+color:#888;
+font-size:6vw;
+line-height:1.5;
+}
+.top2-up h4{
+color:#191970;
+font-size:6vw;
+line-height:1.5;
+}
+
+
+.business-up{
+padding:2% 0%;
+text-align:center;
+}
+.business-up p{
+font-size:5vw;
+}
+
+.business1-l{
+width:40%;
+}
+.business1-l img{
+width:100%;
+}
+.business1-r{
+width:55%;
+margin-left:5%;
+position:relative;
+z-index:1;
+padding:2% 0%;
+}
+.business1-r-up h3{
+color:#fff;
+font-size:7vw;
+font-family: 'Arvo';
+}
+.business1-r-up span{
+color:#fff;
+font-size:3vw;
+}
+.business1-r-down{
+padding:10% 0%;
+text-align:left;
+}
+.business1-r-down p{
+color:#fff;
+font-size:3vw;
+line-height:2;
+}
+.business1-r-hidden{
+position:absolute;
+z-index:-1;
+bottom:0%;
+left:30%;
+}
+.business1-r-hidden p{
+font-size:35vw;
+color:#888;
+}
+
+.business2-l{
+width:55%;
+margin-right:5%;
+position:relative;
+z-index:1;
+padding:2% 0%;
+}
+.business2{
+text-align:right;
+}
+.business2-l-up h3{
+color:#fff;
+font-size:7vw;
+font-family: 'Arvo';
+}
+.business2-l-up span{
+color:#fff;
+font-size:3vw;
+}
+.business2-l-down{
+padding:10% 0%;
+text-align:right;
+}
+.business2-l-down p{
+color:#fff;
+font-size:3vw;
+line-height:2;
+}
+.business2-l-hidden{
+position:absolute;
+z-index:-1;
+bottom:0%;
+right:30%;
+}
+.business2-l-hidden p{
+font-size:35vw;
+color:#888;
+}
+.business2-r{
+width:40%;
+}
+.business2-r img{
+width:100%;
+}
+.business4-con-down{
+border:1px solid #2d2d3b;
+background-color:#2d2d3b;
+width:80%;
+margin-left: 10%;
+margin-right: 10%;
+text-align:center;
+display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+ -webkit-box-align:center;
+  -webkit-align-items:center;
+  -ms-flex-align:center;
+  align-items:center;
+  -webkit-box-pack: center;
+   -ms-flex-pack: center;
+    justify-content: center;
+}
+.business4-con-down-l{
+padding:5% 2%;
+width:70%;
+}
+.business4-con-down-l p{
+color:#fff;
+font-size:5vw;
+}
+.business4-con-down-r{
+padding:5% 2%;
+width:30%;
+}
+.business4-con-down-r i{
+color:#fff;
+font-size:6vw;
+}
+
+
+/*ここまでforce.htmlのrespon*/
+/*ここからabout.htmlのrespon*/
+.about-con-up h3 {
+    font-size: 3.5vw;
+    line-height: 1.5;
+}
+.about-con-down p {
+    font-size: 3vw;
+    line-height: 2;
+    letter-spacing: 0.2em;
+}
+.about-top2 img {
+    width: 100%;
+    height: 30vh;
+}
+.about-top2-write {
+    position: absolute;
+    top: 30%;
+    left: 16%;
+}
+.about-top2-write p {
+    font-size: 6vw;
+    color: #fff;
+    font-family: 'Arvo';
+    line-height: 1.5;
+}
+.about-con2-up h3 {
+    font-size: 7vw;
+}
+.aaa {
+    padding: 3% 1%;
+}
+
+.about-con3-down iframe {
+    width: 100%;
+    height: 20vh;
+    fransform: scale(1.1);
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition-duration: 0.5s;
+}
+/*ここまでabout.htmlのrespon*/
+/*ここrecrui.htmlのrespon*/
+.rec-con {
+    padding: 3% 0%;
+}
+.rec-con-up-1 p {
+    color: #999;
+    padding: 10% 0%;
+    font-size: 3.5vw;
+}
+.rec-con-up-2 p {
+    color: #999;
+    padding: 10% 0%;
+    font-size: 3.5vw;
+}
+.rec-con-up-3 p {
+    color: #999;
+    padding: 10% 0%;
+    font-size: 3.5vw;
+}
+
+.rec-con-down-up h3 {
+    font-size: 5vw;
+    line-height: 1.5;
+}
+.rec-con-down-down {
+    padding: 0% 0%;
+}
+.recruit-ulli-1 p {
+    font-size: 3.5vw;
+    font-weight: bold;
+}
+
+.recruit-ulli-2 p {
+    font-size: 3.5vw;
+    line-height: 2;
+}
+.rrr {
+    padding: 5% 0%;
+}
+
+
+/*ここまでrecruit.htmlのrespon*/
+/*ここからrontact.htmlのrespon*/
+
+.contact-form {
+    padding: 3% 0%;
+}
+form {
+    width: auto;
+    margin: 0 auto;
+}
+.label {
+    float: left;
+    margin-left:30%;
+    width: 45%;
+    padding: 2% 0%;
+    font-size:1%;
+}
+input[type="text"],input[type="email"]{
+  border: solid 1px #aaa;
+  border-radius:5px;
+  padding:10px;
+  font-size: 15px;
+  margin-left:30%;
+}
+input[type="text"],input[type="tell"]{
+  border: solid 1px #aaa;
+  border-radius:5px;
+  padding:10px;
+  font-size: 15px;
+    margin-left:30%;
+}
+.inputs {
+    float: left;
+    width: 50%;
+      margin-left:30%;
+}
+.contact-info {
+    border: 1px solid;
+    text-align: center;
+    padding: 5% 0%;
+}
+
+
+/*ここまでcontact.htmlのrespon*/
+
+/*footer*/
+.footer {
+    background-color: #2d2d3b;
+    padding: 10% 0%;
+}
+
+.footer-up {
+    width: 50%;
+    margin-left: 25%;
+    /* margin-right: 20%; */
+    text-align: center;
+}
+.footer-down{
+display:none;
+}
+.footer-copy{
+background-color: #888;
+padding:2% 0%;
+text-align:center;
+}
+.footer-copy p{
+font-size:4vw;
+}
+
+/*ここまでfooter*/
+/* ===============
+  This hamburger button was generated by Zarigani Design Office Hamburger Button Generator.
+
+  Zarigani Design Office's Hamburger Button
+  Copyright: 2019 Zarigani Design Office
+  URL: https://zarigani-design-office.com/hamburger/
+  This software is released under the MIT License.
+  http://opensource.org/licenses/mit-license.php
+  ================*/
+
+/*+++ Reset +++*/
+.zdo_drawer_button * {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  font: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-align: left;
+  text-decoration: none;
+  list-style: none;
+}
+
+.zdo_drawer_button {
+  display: block;
+  padding: 0;
+  width: 42px;
+  height: 26px;
+  position: relative;
+  background: none;
+  border: none;
+  text-align: center;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  outline: none;
+}
+
+.zdo_drawer_button .zdo_drawer_bar {
+  display: block;
+  width: 42px;
+  height: 2px;
+  transition: all 0.2s;
+  transform-origin: 0% 0%;
+  transform: translateY(-50%);
+  position: absolute;
+  left: 0;
+}
+
+.zdo_drawer_button .zdo_drawer_bar1 {
+  top: 0;
+}
+
+.zdo_drawer_button .zdo_drawer_bar2 {
+  top: 50%;
+}
+
+.zdo_drawer_button .zdo_drawer_bar3 {
+  top: 100%;
+}
+
+.zdo_drawer_button.active .zdo_drawer_bar {
+  width: 36.77px;
+  left: 8px
+}
+
+.zdo_drawer_button.active .zdo_drawer_bar1 {
+  transform: rotate(0.7853981633974483rad) translateY(-50%);
+  top: 0px
+}
+
+.zdo_drawer_button.active .zdo_drawer_bar2 {
+  opacity: 0;
+}
+
+.zdo_drawer_button.active .zdo_drawer_bar3 {
+  transform: rotate(-0.7853981633974483rad) translateY(-50%);
+  top: calc(100% - 0px)
+}
+
+
+/*+++ Default Button Color +++*/
+  .zdo_drawer_button {
+  color: #888;
+}
+
+.zdo_drawer_button .zdo_drawer_bar {
+  background-color: #888;
+}
+
+
+/*この下はresponのとじかっこ*/
 }
