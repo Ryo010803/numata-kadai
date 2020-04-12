@@ -35,8 +35,64 @@ $(function(){
     });
 
     $(".respon-open-menu").on("click",function(){
-       $(".respon-menu-right").slideToggle(1000);
+       $(".menu-right").slideToggle(1000);
     });
+
+
+    $('.top2-down-l p').addClass('move');
+       $(window).scroll(function(){
+           $(".top2-down-l").each(function(){
+               var imgPos = $(this).offset().top;
+               var scroll = $(window).scrollTop();
+               var windowHeight = $(window).height();
+               if (scroll > imgPos - windowHeight + windowHeight/5){
+       $(this).find("p").removeClass('move');
+       } else {
+            $(this).find("p").addClass('move');
+       }
+       });
+    });
+
+   $('.business1-r-hidden p').addClass('move');
+        $(window).scroll(function(){
+            $(".business1-r-hidden").each(function(){
+                var imgPos = $(this).offset().top;
+                var scroll = $(window).scrollTop();
+                var windowHeight = $(window).height();
+                if (scroll > imgPos - windowHeight + windowHeight/5){
+        $(this).find("p").removeClass('move');
+        } else {
+             $(this).find("p").addClass('move');
+        }
+        });
+    });
+    $('.business2-l-hidden p').addClass('move');
+         $(window).scroll(function(){
+             $(".business2-l-hidden").each(function(){
+                 var imgPos = $(this).offset().top;
+                 var scroll = $(window).scrollTop();
+                 var windowHeight = $(window).height();
+                 if (scroll > imgPos - windowHeight + windowHeight/5){
+         $(this).find("p").removeClass('move');
+         } else {
+              $(this).find("p").addClass('move');
+         }
+         });
+     });
+     $('.business4-hidden p').addClass('move');
+          $(window).scroll(function(){
+              $(".business4-hidden").each(function(){
+                  var imgPos = $(this).offset().top;
+                  var scroll = $(window).scrollTop();
+                  var windowHeight = $(window).height();
+                  if (scroll > imgPos - windowHeight + windowHeight/5){
+          $(this).find("p").removeClass('move');
+          } else {
+               $(this).find("p").addClass('move');
+          }
+          });
+      });
+
 
 });
 </script>
@@ -65,15 +121,6 @@ $(function(){
       </button>
      </div><!--respon-open-menu-->
 
-     <div class="respon-menu-right">
-       <ul>
-         <li><a href="force.html"><p>HOME</p></a></li>
-         <li><a href="about.html"><p>About</p></a></li>
-         <li><a href="recruit.html"><p>Recruit</p></a></li>
-         <li><a href="contact.html"><p>Contact</p></a></li>
-         <li><a href="access.html"><p>Access</p></a></li>
-       </ul>
-     </div><!--respon-menu-right-->
 
   </div><!--menu-->
 
@@ -142,6 +189,26 @@ $(function(){
                <div class="business2-r">
                 <img src="img/business2.jpg">
                </div><!--business2-r-->
+
+         </div><!--business2-->
+
+         <div class="respon-business2">
+                <div class="respon-business2-r">
+                <img src="img/business2.jpg">
+               </div><!--business2-r-->
+               <div class="respon-business2-l">
+                    <div class="respon-business2-l-up">
+                      <h3>IT solution</h3>
+                      <span>エンジニアのキャリアアップを推進</span>
+                    </div><!--business2-l-up-->
+                       <div class="respon-business2-l-down">
+                   <p>マッチングを通じてプロジェクトの<br>人材不足解消とキャリア支援<br>フリーランスの方々の企業から<br>
+    営業支援納税までを一括サポートを<br>行う事業です</p>
+                     </div><!--business2-r-down-->
+                   <div class="respon-business2-l-hidden">
+                       <P>R</p>
+                    </div><!--business2-l-hidden-->
+              </div><!--business2-l-->
 
          </div><!--business2-->
 

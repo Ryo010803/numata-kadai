@@ -24,9 +24,9 @@ $(function(){
 $(window).scroll(function(){
        console.log($(this).scrollTop());
        if($(this).scrollTop() >300){
-        $(".menu").css('backgroundcolor','#2d2d3b');
+        $(".menu").css('backgroundColor','#2d2d3b');
       }else{
-         $(".menu").css('backgroundcolor','rgba(0, 0, 0, 0)');
+         $(".menu").css('backgroundColor','rgba(0, 0, 0, 0)');
      };
 
   　});
@@ -37,7 +37,7 @@ $(window).scroll(function(){
    })
 
    $(".respon-open-menu").on("click",function(){
-       $(".respon-menu-right").slideToggle(1000);
+       $(".menu-right").slideToggle(1000);
 
 
 });
@@ -69,17 +69,6 @@ $(window).scroll(function(){
           <span class="zdo_drawer_bar zdo_drawer_bar3"></span>
          </button>
         </div><!--respon-open-menu-->
-
-        <div class="respon-menu-right">
-          <ul>
-            <li><a href="force.html"><p>HOME</p></a></li>
-            <li><a href="about.html"><p>About</p></a></li>
-            <li><a href="recruit.html"><p>Recruit</p></a></li>
-            <li><a href="contact.html"><p>Contact</p></a></li>
-            <li><a href="access.html"><p>Access</p></a></li>
-          </ul>
-        </div><!--respon-menu-right-->
-
   </div><!--menu-->
   <div class="about-top">
     <img src="img/recruit/recruit-top.jpg">
@@ -89,112 +78,279 @@ $(window).scroll(function(){
       </div><!--about-top-write-->
 
   </div><!--about-top-->
-       <div class="rec-con">
-         <div class="rec-con-up">
-           <div class="rec-con-up-1">
-              <p>正社員(営業)</p>
-           </div><!--rec-con-up-1-->
-           <div class="rec-con-up-2">
-              <p>フリーランス(営業)</p>
-           </div><!--rec-con-up-2-->
-           <div class="rec-con-up-3">
-              <p>パートナー(営業)</p>
-           </div><!--rec-con-up-3-->
-        </div><!--rec-con-up-->
+  <div class="tabs">
+           <input id="all" type="radio" name="tab_item" checked>
+             <label class="tab_item" for="all">正社員(営業)</label>
+                <input id="programming" type="radio" name="tab_item">
+                 <label class="tab_item" for="programming">フリーランス(営業)</label>
+                     <input id="design" type="radio" name="tab_item">
+                     <label class="tab_item" for="design">パートナー(営業)</label>
 
-         <div class="rec-con-down">
-          <div class="rec-con-down-up">
-            <h3>クライアントが抱える課題を<br>人材の切り口からソリューションをご提案</h3>
-          </div><!--rec-con-down-->
-            <div class="rec-con-down-down">
-               <div class="recruit-ulli">
-                  <div class="recruit-ulli-1">
-                     <p>採用形態</p>
-                  </div><!--recruit-ulli-1-->
-                  <div class="recruit-ulli-2">
-                     <p>正社員(試用期間あり)</p>
-                  </div><!--recruit-ulli-2-->
-               </div><!--recruit-ulli-->
+            <div class="tab_content" id="all_content">
+              <div class="rec-con-down">
+               <div class="rec-con-down-up">
+                 <h3>クライアントが抱える課題を<br>人材の切り口からソリューションをご提案</h3>
+               </div><!--rec-con-down-->
+                 <div class="rec-con-down-down">
+                    <div class="recruit-ulli">
+                       <div class="recruit-ulli-1">
+                          <p>採用形態</p>
+                       </div><!--recruit-ulli-1-->
+                       <div class="recruit-ulli-2">
+                          <p>正社員(試用期間あり)</p>
+                       </div><!--recruit-ulli-2-->
+                    </div><!--recruit-ulli-->
 
-                  <div class="recruit-ulli">
-                     <div class="recruit-ulli-1">
-                        <p>仕事内容</p>
-                     </div><!--recruit-ulli-1-->
-                     <div class="recruit-ulli-2">
-                        <p>クライアントが抱える課題を人材の切り口からソリューションをご提案致します。<br>
-・IT営業(顧客開拓、パートナー開拓、マッチング業務)<br>・マネージャー業務(担当エンジニアのキャリアデザイン、マネジメント)</p>
-                     </div><!--recruit-ulli-2-->
-                  </div><!--recruit-ulli-->
+                       <div class="recruit-ulli">
+                          <div class="recruit-ulli-1">
+                             <p>仕事内容</p>
+                          </div><!--recruit-ulli-1-->
+                          <div class="recruit-ulli-2">
+                             <p>クライアントが抱える課題を人材の切り口からソリューションをご提案致します。<br>
+     ・IT営業(顧客開拓、パートナー開拓、マッチング業務)<br>・マネージャー業務(担当エンジニアのキャリアデザイン、マネジメント)</p>
+                          </div><!--recruit-ulli-2-->
+                       </div><!--recruit-ulli-->
 
-                  <div class="recruit-ulli">
-                     <div class="recruit-ulli-1">
-                        <p>応募資格</p>
-                     </div><!--recruit-ulli-1-->
-                     <div class="recruit-ulli-2">
-                        <p>年齢・学歴不問　※未経験者歓迎</p>
-                     </div><!--recruit-ulli-2-->
-                  </div><!--recruit-ulli-->
+                       <div class="recruit-ulli">
+                          <div class="recruit-ulli-1">
+                             <p>応募資格</p>
+                          </div><!--recruit-ulli-1-->
+                          <div class="recruit-ulli-2">
+                             <p>年齢・学歴不問　※未経験者歓迎</p>
+                          </div><!--recruit-ulli-2-->
+                       </div><!--recruit-ulli-->
 
-                  <div class="recruit-ulli">
-                     <div class="recruit-ulli-1">
-                        <p>歓迎スキル・経験</p>
-                     </div><!--recruit-ulli-1-->
-                     <div class="recruit-ulli-2">
-                        <p>人材業界、IT業界経験者歓迎。<br>業界問わず営業、接客などの経験がある方(業界経験者優遇)。<br>
-新規事業に携わりたい方。<br>未経験者でも一から教育致しますので、やる気のある方はご応募お待ちしております。</p>
-                     </div><!--recruit-ulli-2-->
-                  </div><!--recruit-ulli-->
+                       <div class="recruit-ulli">
+                          <div class="recruit-ulli-1">
+                             <p>歓迎スキル・経験</p>
+                          </div><!--recruit-ulli-1-->
+                          <div class="recruit-ulli-2">
+                             <p>人材業界、IT業界経験者歓迎。<br>業界問わず営業、接客などの経験がある方(業界経験者優遇)。<br>
+     新規事業に携わりたい方。<br>未経験者でも一から教育致しますので、やる気のある方はご応募お待ちしております。</p>
+                          </div><!--recruit-ulli-2-->
+                       </div><!--recruit-ulli-->
 
-                  <div class="recruit-ulli">
-                     <div class="recruit-ulli-1">
-                        <p>勤務地</p>
-                     </div><!--recruit-ulli-1-->
-                     <div class="recruit-ulli-2">
-                        <p>本社<br>東京都新宿区新宿1-9-1第２タケビル　３F</p>
-                     </div><!--recruit-ulli-2-->
-                  </div><!--recruit-ulli-->
+                       <div class="recruit-ulli">
+                          <div class="recruit-ulli-1">
+                             <p>勤務地</p>
+                          </div><!--recruit-ulli-1-->
+                          <div class="recruit-ulli-2">
+                             <p>本社<br>東京都新宿区新宿1-9-1第２タケビル　３F</p>
+                          </div><!--recruit-ulli-2-->
+                       </div><!--recruit-ulli-->
 
-                  <div class="recruit-ulli">
-                     <div class="recruit-ulli-1">
-                        <p>勤務時間</p>
-                     </div><!--recruit-ulli-1-->
-                     <div class="recruit-ulli-2">
-                        <p>10:00~19:00</p>
-                     </div><!--recruit-ulli-2-->
-                  </div><!--recruit-ulli-->
+                       <div class="recruit-ulli">
+                          <div class="recruit-ulli-1">
+                             <p>勤務時間</p>
+                          </div><!--recruit-ulli-1-->
+                          <div class="recruit-ulli-2">
+                             <p>10:00~19:00</p>
+                          </div><!--recruit-ulli-2-->
+                       </div><!--recruit-ulli-->
 
-                  <div class="recruit-ulli">
-                     <div class="recruit-ulli-1">
-                        <p>給与</p>
-                     </div><!--recruit-ulli-1-->
-                     <div class="recruit-ulli-2">
-                        <p>経験・能力などを総合的に考慮し、当社規定により決定させて頂きます。<br>基本給＋インセンティブ</p>
-                     </div><!--recruit-ulli-2-->
-                  </div><!--recruit-ulli-->
+                       <div class="recruit-ulli">
+                          <div class="recruit-ulli-1">
+                             <p>給与</p>
+                          </div><!--recruit-ulli-1-->
+                          <div class="recruit-ulli-2">
+                             <p>経験・能力などを総合的に考慮し、当社規定により決定させて頂きます。<br>基本給＋インセンティブ</p>
+                          </div><!--recruit-ulli-2-->
+                       </div><!--recruit-ulli-->
 
-                  <div class="recruit-ulli">
-                     <div class="recruit-ulli-1">
-                        <p>待遇・福利厚生</p>
-                     </div><!--recruit-ulli-1-->
-                     <div class="recruit-ulli-2">
-                        <p>各種社会保険、交通費支給(月額３万円まで)<br>年度末業績ボーナスあり<br>
-その他：社内サークル制度、社員旅行、社内イベント有り</p>
-                     </div><!--recruit-ulli-2-->
-                  </div><!--recruit-ulli-->
+                       <div class="recruit-ulli">
+                          <div class="recruit-ulli-1">
+                             <p>待遇・福利厚生</p>
+                          </div><!--recruit-ulli-1-->
+                          <div class="recruit-ulli-2">
+                             <p>各種社会保険、交通費支給(月額３万円まで)<br>年度末業績ボーナスあり<br>
+     その他：社内サークル制度、社員旅行、社内イベント有り</p>
+                          </div><!--recruit-ulli-2-->
+                       </div><!--recruit-ulli-->
 
-                  <div class="recruit-ulli">
-                     <div class="recruit-ulli-1">
-                        <p>休日休暇</p>
-                     </div><!--recruit-ulli-1-->
-                     <div class="recruit-ulli-2">
-                        <p>休日休暇、土曜日、日曜日、祝祭日<br>特別休暇(年末年始、夏季、慶弔)、年次有給休暇</p>
-                     </div><!--recruit-ulli-2-->
-                  </div><!--recruit-ulli-->
+                       <div class="recruit-ulli">
+                          <div class="recruit-ulli-1">
+                             <p>休日休暇</p>
+                          </div><!--recruit-ulli-1-->
+                          <div class="recruit-ulli-2">
+                             <p>休日休暇、土曜日、日曜日、祝祭日<br>特別休暇(年末年始、夏季、慶弔)、年次有給休暇</p>
+                          </div><!--recruit-ulli-2-->
+                       </div><!--recruit-ulli-->
 
-            </div><!--rec-con-down-down-->
-         </div><!--rec-con-down-->
+                 </div><!--rec-con-down-down-->
+              </div><!--rec-con-down-->
 
-       </div><!--rec-con-->
+            </div>
+                <div class="tab_content" id="programming_content">
+                  <div class="rec-con-down">
+                   <div class="rec-con-down-up">
+                     <h3>クライアントが抱える課題を<br>人材の切り口からソリューションをご提案</h3>
+                   </div><!--rec-con-down-->
+                  <div class="rec-con-down-down">
+                     <div class="recruit-ulli">
+                        <div class="recruit-ulli-1">
+                           <p>採用形態</p>
+                        </div><!--recruit-ulli-1-->
+                        <div class="recruit-ulli-2">
+                           <p>フリーランス</p>
+                        </div><!--recruit-ulli-2-->
+                     </div><!--recruit-ulli-->
+
+                        <div class="recruit-ulli">
+                           <div class="recruit-ulli-1">
+                              <p>仕事内容</p>
+                           </div><!--recruit-ulli-1-->
+                           <div class="recruit-ulli-2">
+                              <p>・IT営業（顧客開拓、パートナー開拓、マッチング業務）<br>
+                                ・マネジャー業務（担当エンジニアのキャリアデザイン、マネジメント）人材業界、IT業界経験者歓迎。<br>
+                                未経験者でも一から教育致しますので、やる気のある方はご応募お待ちしております。</p>
+                           </div><!--recruit-ulli-2-->
+                        </div><!--recruit-ulli-->
+
+                        <div class="recruit-ulli">
+                           <div class="recruit-ulli-1">
+                              <p>応募資格</p>
+                           </div><!--recruit-ulli-1-->
+                           <div class="recruit-ulli-2">
+                              <p>年齢・学歴不問　※未経験者歓迎</p>
+                           </div><!--recruit-ulli-2-->
+                        </div><!--recruit-ulli-->
+
+                        <div class="recruit-ulli">
+                           <div class="recruit-ulli-1">
+                              <p>歓迎スキル・経験</p>
+                           </div><!--recruit-ulli-1-->
+                           <div class="recruit-ulli-2">
+                              <p>人材業界、IT業界経験者歓迎。<br>業界問わず営業、接客などの経験がある方(業界経験者優遇)。<br>
+                                新規事業に携わりたい方。</p>
+                           </div><!--recruit-ulli-2-->
+                        </div><!--recruit-ulli-->
+
+                        <div class="recruit-ulli">
+                           <div class="recruit-ulli-1">
+                              <p>勤務地</p>
+                           </div><!--recruit-ulli-1-->
+                           <div class="recruit-ulli-2">
+                              <p>本社<br>東京都新宿区新宿1-9-1第２タケビル　３F</p>
+                           </div><!--recruit-ulli-2-->
+                        </div><!--recruit-ulli-->
+
+                        <div class="recruit-ulli">
+                           <div class="recruit-ulli-1">
+                              <p>勤務時間</p>
+                           </div><!--recruit-ulli-1-->
+                           <div class="recruit-ulli-2">
+                              <p>10:00~19:00</p>
+                           </div><!--recruit-ulli-2-->
+                        </div><!--recruit-ulli-->
+
+                        <div class="recruit-ulli">
+                           <div class="recruit-ulli-1">
+                              <p>給与</p>
+                           </div><!--recruit-ulli-1-->
+                           <div class="recruit-ulli-2">
+                              <p>２パターン。<br>①固定給25万円+成果の30％<br>②固定給7万円+成果の50％</p>
+                           </div><!--recruit-ulli-2-->
+                        </div><!--recruit-ulli-->
+
+                        <div class="recruit-ulli">
+                           <div class="recruit-ulli-1">
+                              <p>待遇・福利厚生</p>
+                           </div><!--recruit-ulli-1-->
+                           <div class="recruit-ulli-2">
+                              <p>オフィス、デスク提供<br>バックオフィスサポート<br>確定申告サポート<br>
+                                コピー機、PC、携帯、Wi-Fiレンタル<br>名刺作成、営業資料提供</p>
+                           </div><!--recruit-ulli-2-->
+                        </div><!--recruit-ulli-->
+
+                  </div><!--rec-con-down-down-->
+               </div><!--rec-con-down-->
+                </div>
+                   <div class="tab_content" id="design_content">
+                     <div class="rec-con-down">
+                      <div class="rec-con-down-up">
+                        <h3>クライアントが抱える課題を<br>人材の切り口からソリューションをご提案</h3>
+                      </div><!--rec-con-down-->
+                     <div class="rec-con-down-down">
+                        <div class="recruit-ulli">
+                           <div class="recruit-ulli-1">
+                              <p>採用形態</p>
+                           </div><!--recruit-ulli-1-->
+                           <div class="recruit-ulli-2">
+                              <p>パートナー</p>
+                           </div><!--recruit-ulli-2-->
+                        </div><!--recruit-ulli-->
+
+                           <div class="recruit-ulli">
+                              <div class="recruit-ulli-1">
+                                 <p>仕事内容</p>
+                              </div><!--recruit-ulli-1-->
+                              <div class="recruit-ulli-2">
+                                 <p>・IT営業（顧客開拓、パートナー開拓、マッチング業務）<br>
+                                   ・マネジャー業務（担当エンジニアのキャリアデザイン、マネジメント）<br>
+                                   業界2年以上の経験者</p>
+                              </div><!--recruit-ulli-2-->
+                           </div><!--recruit-ulli-->
+
+                           <div class="recruit-ulli">
+                              <div class="recruit-ulli-1">
+                                 <p>応募資格</p>
+                              </div><!--recruit-ulli-1-->
+                              <div class="recruit-ulli-2">
+                                 <p>年齢・学歴不問　※未経験者歓迎</p>
+                              </div><!--recruit-ulli-2-->
+                           </div><!--recruit-ulli-->
+
+                           <div class="recruit-ulli">
+                              <div class="recruit-ulli-1">
+                                 <p>歓迎スキル・経験</p>
+                              </div><!--recruit-ulli-1-->
+                              <div class="recruit-ulli-2">
+                                 <p>業界2年以上の経験者<br>前職である一定の成果を収めた方</p>
+                              </div><!--recruit-ulli-2-->
+                           </div><!--recruit-ulli-->
+
+                           <div class="recruit-ulli">
+                              <div class="recruit-ulli-1">
+                                 <p>勤務地</p>
+                              </div><!--recruit-ulli-1-->
+                              <div class="recruit-ulli-2">
+                                 <p>自由</p>
+                              </div><!--recruit-ulli-2-->
+                           </div><!--recruit-ulli-->
+
+                           <div class="recruit-ulli">
+                              <div class="recruit-ulli-1">
+                                 <p>勤務時間</p>
+                              </div><!--recruit-ulli-1-->
+                              <div class="recruit-ulli-2">
+                                 <p>自由</p>
+                              </div><!--recruit-ulli-2-->
+                           </div><!--recruit-ulli-->
+
+                           <div class="recruit-ulli">
+                              <div class="recruit-ulli-1">
+                                 <p>給与</p>
+                              </div><!--recruit-ulli-1-->
+                              <div class="recruit-ulli-2">
+                                 <p>応相談</p>
+                              </div><!--recruit-ulli-2-->
+                           </div><!--recruit-ulli-->
+
+                           <div class="recruit-ulli">
+                              <div class="recruit-ulli-1">
+                                 <p>待遇・福利厚生</p>
+                              </div><!--recruit-ulli-1-->
+                              <div class="recruit-ulli-2">
+                                 <p>オフィス、デスク提供<br>バックオフィスサポート<br>確定申告サポート<br>
+                                   コピー機、PC、携帯、Wi-Fiレンタル<br>名刺作成、営業資料提供</p>
+                              </div><!--recruit-ulli-2-->
+                           </div><!--recruit-ulli-->
+
+                     </div><!--rec-con-down-down-->
+                  </div><!--rec-con-down-->
+                   </div>
+
+ </div><!--tabs-->
         <div class="rrr">
        <div class="business4-con-down">
             <div class="business4-con-down-l">

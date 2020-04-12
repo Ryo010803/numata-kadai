@@ -21,15 +21,23 @@
 
 <script>
 $(function(){
-$(window).scroll(function(){
-       console.log($(this).scrollTop());
-       if($(this).scrollTop() >300){
-        $(".menu").css('backgroundcolor','#2d2d3b');
-      }else{
-         $(".menu").css('backgroundcolor','rgba(0, 0, 0, 0)');
-     };
+      $(window).scroll(function(){
+         console.log($(this).scrollTop());
+         if($(this).scrollTop() >300){
+            $(".menu").css('backgroundColor','#2d2d3b');
+            }else{
+            $(".menu").css('backgroundColor','rgba(0, 0, 0, 0)');
+            };
 
-});
+      });
+
+            $('.zdo_drawer_button').click(function () {
+              $(this).toggleClass('active');
+            });
+
+            $(".respon-open-menu").on("click",function(){
+                $(".menu-right").slideToggle(1000);
+            });
 
 });
 
@@ -50,6 +58,15 @@ $(window).scroll(function(){
             <li><a href="access.html"><p>Access</p></a></li>
           </ul>
         </div><!--menu-right-->
+
+        <div class="respon-open-menu">
+          <button type="button" class="zdo_drawer_button">
+          <span class="zdo_drawer_bar zdo_drawer_bar1"></span>
+          <span class="zdo_drawer_bar zdo_drawer_bar2"></span>
+          <span class="zdo_drawer_bar zdo_drawer_bar3"></span>
+         </button>
+        </div><!--respon-open-menu-->
+
 
   </div><!--menu-->
 
