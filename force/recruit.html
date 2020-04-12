@@ -29,6 +29,17 @@ $(window).scroll(function(){
          $(".menu").css('backgroundcolor','rgba(0, 0, 0, 0)');
      };
 
+  　});
+
+     $('.zdo_drawer_button').click(function () {
+       $(this).toggleClass('active');
+
+   })
+
+   $(".respon-open-menu").on("click",function(){
+       $(".respon-menu-right").slideToggle(1000);
+
+
 });
 
 });
@@ -50,6 +61,24 @@ $(window).scroll(function(){
             <li><a href="access.html"><p>Access</p></a></li>
           </ul>
         </div><!--menu-right-->
+
+        <div class="respon-open-menu">
+          <button type="button" class="zdo_drawer_button">
+          <span class="zdo_drawer_bar zdo_drawer_bar1"></span>
+          <span class="zdo_drawer_bar zdo_drawer_bar2"></span>
+          <span class="zdo_drawer_bar zdo_drawer_bar3"></span>
+         </button>
+        </div><!--respon-open-menu-->
+
+        <div class="respon-menu-right">
+          <ul>
+            <li><a href="force.html"><p>HOME</p></a></li>
+            <li><a href="about.html"><p>About</p></a></li>
+            <li><a href="recruit.html"><p>Recruit</p></a></li>
+            <li><a href="contact.html"><p>Contact</p></a></li>
+            <li><a href="access.html"><p>Access</p></a></li>
+          </ul>
+        </div><!--respon-menu-right-->
 
   </div><!--menu-->
   <div class="about-top">
