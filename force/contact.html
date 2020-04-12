@@ -1,0 +1,154 @@
+<!doctype html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="respon.css">
+<title>force-contact 課題</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!--レスポンシブ-->
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<!--googlefont-->
+
+<link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+<!--top-down-r-googlefont-->
+
+
+<script src="https://kit.fontawesome.com/71d52f16b4.js" crossorigin="anonymous"></script>
+<!--アイコン-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!--jquery-->
+
+<script>
+$(function(){
+$(window).scroll(function(){
+       console.log($(this).scrollTop());
+       if($(this).scrollTop() >300){
+        $(".menu").css('backgroundcolor','#2d2d3b');
+      }else{
+         $(".menu").css('backgroundcolor','rgba(0, 0, 0, 0)');
+     };
+     $('.zdo_drawer_button').click(function () {
+       $(this).toggleClass('active');
+
+     })
+
+     $(".respon-open-menu").on("click",function(){
+       $(".respon-menu-right").slideToggle(1000);
+
+
+     });
+});
+
+});
+
+</script>
+</head>
+<body>
+<div id="wrapper">
+  <div class="menu">
+        <div class="menu-left">
+          <img src="img/menu-left.png">
+        </div><!--menu-left-->
+         <div class="menu-right">
+           <ul>
+             <li><a href="force.html"><p>HOME</p></a></li>
+             <li><a href="about.html"><p>About</p></a></li>
+             <li><a href="recruit.html"><p>Recruit</p></a></li>
+             <li><a href="contact.html"><p>Contact</p></a></li>
+             <li><a href="access.html"><p>Access</p></a></li>
+           </ul>
+         </div><!--menu-right-->
+
+         <div class="respon-open-menu">
+           <button type="button" class="zdo_drawer_button">
+           <span class="zdo_drawer_bar zdo_drawer_bar1"></span>
+           <span class="zdo_drawer_bar zdo_drawer_bar2"></span>
+           <span class="zdo_drawer_bar zdo_drawer_bar3"></span>
+          </button>
+         </div><!--respon-open-menu-->
+
+         <div class="respon-menu-right">
+           <ul>
+             <li><a href="force.html"><p>HOME</p></a></li>
+             <li><a href="about.html"><p>About</p></a></li>
+             <li><a href="recruit.html"><p>Recruit</p></a></li>
+             <li><a href="contact.html"><p>Contact</p></a></li>
+             <li><a href="access.html"><p>Access</p></a></li>
+           </ul>
+         </div><!--respon-menu-right-->
+   </div><!--menu-->
+   <div class="about-top">
+     <img src="img/contact/contact-top.jpg">
+   </div><!--about-top-->
+
+<div class="contact-form">
+  <div class="contact-form-content">
+
+   <form>
+
+  <div class="item">
+    <label class="label"><span>※</span>お名前</label>
+    <input class="inputs" type="text" name="name">
+  </div>
+
+  <div class="item">
+    <label class="label"><span>※</span>メールアドレス</label>
+    <input class="inputs" type="email" name="email">
+  </div>
+
+  <div class="item">
+    <label class="label"><span>※</span>メールアドレス(確認用)</label>
+    <input class="inputs" type="email" name="email">
+  </div>
+
+  <div class="item">
+    <label class="label"><span>※</span>電話番号</label>
+    <input class="inputs" type="tell" name="tell">
+  </div>
+
+  <div class="item">
+    <label class="label"><span>※</span>内容</label>
+    <textarea class="inputs"></textarea>
+  </div>
+</div><!--contact-form-content-->
+
+　<div class="contact-info">
+  <span>※</span><input id="info" type="checkbox"><label for="info">お問い合わせにおける個人情報取り扱いに同意する</label>
+</div><!--contact-info-->
+
+<div class="contact-submit">
+<div class="btn-area">
+   <input type="submit" value="送信">
+ </div>
+</div><!--contact-submit-->
+
+</div><!--contact-form-->
+
+<div class="footer">
+  <div class="footer-up">
+    <img src="img/menu-left.png">
+  </div><!--footer-up-->
+     <div class="footer-down">
+       <ul>
+                   <li><a href="force.html"><p>HOME</p></a></li>
+                   <li><a href="about.html"><p>About</p></a></li>
+                   <li><a href="recruit.html"><p>Recruit</p></a></li>
+                   <li><a href="contact.html"><p>Contact</p></a></li>
+                   <li><a href="access.html"><p>Access</p></a></li>
+
+       </ul>
+     </div><!--footer-down-->
+</div><!--footer-->
+ <div class="footer-copy">
+    <p>Copyright ©︎2019 Force Promote inc.</p>
+ </div><!--footer-copy-->
+
+
+
+
+
+
+</div><!--wrapper-->
+</body>
+</html>

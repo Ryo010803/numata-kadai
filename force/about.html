@@ -1,0 +1,254 @@
+<!doctype html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="respon.css">
+<title>force-about 課題</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!--レスポンシブ-->
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<!--googlefont-->
+
+<link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+<!--top2-down-r-googlefont-->
+
+
+<script src="https://kit.fontawesome.com/71d52f16b4.js" crossorigin="anonymous"></script>
+<!--アイコン-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!--jquery-->
+
+<script>
+$(function(){
+$(window).scroll(function(){
+       console.log($(this).scrollTop());
+       if($(this).scrollTop() >300){
+        $(".menu").css('backgroundcolor','#2d2d3b');
+      }else{
+         $(".menu").css('backgroundcolor','rgba(0, 0, 0, 0)');
+     };
+
+});
+
+$('.zdo_drawer_button').click(function () {
+  $(this).toggleClass('active');
+
+})
+
+$(".respon-open-menu").on("click",function(){
+  $(".respon-menu-right").slideToggle(1000);
+
+
+});
+
+});
+
+</script>
+</head>
+<body>
+<div id="wrapper">
+ <div class="menu">
+       <div class="menu-left">
+         <img src="img/menu-left.png">
+       </div><!--menu-left-->
+        <div class="menu-right">
+          <ul>
+            <li><a href="force.html"><p>HOME</p></a></li>
+            <li><a href="about.html"><p>About</p></a></li>
+            <li><a href="recruit.html"><p>Recruit</p></a></li>
+            <li><a href="contact.html"><p>Contact</p></a></li>
+            <li><a href="access.html"><p>Access</p></a></li>
+          </ul>
+        </div><!--menu-right-->
+
+
+        <div class="respon-open-menu">
+          <button type="button" class="zdo_drawer_button">
+          <span class="zdo_drawer_bar zdo_drawer_bar1"></span>
+          <span class="zdo_drawer_bar zdo_drawer_bar2"></span>
+          <span class="zdo_drawer_bar zdo_drawer_bar3"></span>
+         </button>
+        </div><!--respon-open-menu-->
+
+        <div class="respon-menu-right">
+          <ul>
+            <li><a href="force.html"><p>HOME</p></a></li>
+            <li><a href="about.html"><p>About</p></a></li>
+            <li><a href="recruit.html"><p>Recruit</p></a></li>
+            <li><a href="contact.html"><p>Contact</p></a></li>
+            <li><a href="access.html"><p>Access</p></a></li>
+          </ul>
+        </div><!--respon-menu-right-->
+  </div><!--menu-->
+  <div class="about-top">
+    <img src="img/about/about-top.jpg">
+      <div class="about-top-write">
+        <h3>About</h3>
+        <p>会社情報</p>
+      </div><!--about-top-write-->
+
+  </div><!--about-top-->
+   <div class="about-content">
+     <div class="about-con-up">
+      <h3>個々の才能開花に特化した次世代のプラットフォームとして<br>IT業界の課題解決を目指します。</h3>
+    </div><!--about-con-up-->
+       <div class="about-con-down">
+         <p>日本を支える数少ない成長産業であるIT。<br>IT産業の発展が日本の成長、<br>
+復活における重要ミッションだと私は捉えており、<br>その中での最大課題は人材不足だと感じております。</p>
+       </div><!--about-con-down-->
+           <div class="about-con-down">
+            <p>労働人口の減少が騒がれている中で、<br>我々は足りないリソースの単なる補填ではなく、<br>今あるリソースのポテンシャル
+最大化を通じて、<br>成長産業を支える事を目指しております。</p>
+           </div><!--about-con-down-->
+             <div class="about-con-down">
+                <p>つまり、個々のポテンシャルを最大限に発揮させ、<br>IT業界の人材不足を解消する事が<br>
+我々のミッションです。<br>従来の日本社会では成し得なかった<br>ポテンシャル最大化プラットフォーム<br>
+(サーチファンド事業)の運営を通じて、<br>次世代の潜在労働力を活用し、<br>IT業界の人材不足を解消へと導きます。</p>
+             </div><!--about-con-down-->
+                <div class="about-con-down">
+                  <p>新しい採用方法・雇用形態<br>さらに教育・働き方を取り入れ、<br>
+才能を秘めた原石を見つけ、<br>眠っていた能力の開化を目指します。</p>
+                </div><!--about-con-down-->
+                    <div class="about-con-down">
+                      <p>IT業界の人材不足解消と<br>個々の才能開花と幸せを実現する<br>
+次世代のプラットフォーム構築を目的とし、<br>IT業界で輝ける人間を増やすべく<br>尽力して参ります。</p>
+                    </div><!--about-con-down-->
+                      <div class="about-con-down">
+                        <p>＜代表取締役・林　亮太＞</p>
+                      </div><!--about-con-down-->
+
+   </div><!--about-content-->
+   <div class="about-top2">
+     <img src="img/about/about-top2.jpg">
+       <div class="about-top2-write">
+         <p>私たちは「IT×人材」の<br>プロフェッショナルです。</p>
+       </div><!--about-top2-write-->
+    </div><!--about-top2-->
+
+             <div class="about-content2">
+                <div class="about-con2-up">
+                   <h3>企業情報</h3>
+                </div><!--about-content2-up-->
+                 <div class="aaa">
+                  <div class="about-con2-down">
+                    <div class="about-con2-down-l">
+                      <p>会社名</p>
+                    </div><!--about-con2-down-l-->
+                       <div class="about-con2-down-r">
+                         <p>Forcepromote株式会社</p>
+                       </div><!--about-con2-down-r-->
+                  </div><!--about-con2-down-->
+
+                  <div class="about-con2-down">
+                    <div class="about-con2-down-l">
+                      <p>代表者</p>
+                    </div><!--about-con2-down-l-->
+                       <div class="about-con2-down-r">
+                         <p>代表取締役 林亮太<br>取締役 友田俊輔</p>
+                       </div><!--about-con2-down-r-->
+                  </div><!--about-con2-down-->
+                  <div class="about-con2-down">
+                    <div class="about-con2-down-l-2">
+                      <p>所在地</p>
+                    </div><!--about-con2-down-l-->
+                       <div class="about-con2-down-r">
+                         <p>〒160-0022<br>東京都新宿区新宿1-9-1<br>第二タケビル3階</p>
+                       </div><!--about-con2-down-r-->
+                  </div><!--about-con2-down-->
+                  <div class="about-con2-down">
+                    <div class="about-con2-down-l">
+                      <p>資本金</p>
+                    </div><!--about-con2-down-l-->
+                       <div class="about-con2-down-r">
+                         <p>2,000万円</p>
+                       </div><!--about-con2-down-r-->
+                  </div><!--about-con2-down-->
+
+                  <div class="about-con2-down">
+                    <div class="about-con2-down-l">
+                      <p>設立</p>
+                    </div><!--about-con2-down-l-->
+                       <div class="about-con2-down-r">
+                         <p>2019年12月24日</p>
+                       </div><!--about-con2-down-r-->
+                  </div><!--about-con2-down-->
+
+                  <div class="about-con2-down">
+                      <div class="about-con2-down-l-2">
+                        <p>事業内容</p>
+                      </div><!--about-con2-down-l-->
+                         <div class="about-con2-down-r">
+                           <p>サーチファンド事業<br>HRソリューション事業<br>ITソリューション事業</p>
+                         </div><!--about-con2-down-r-->
+                    </div><!--about-con2-down-->
+
+                    <div class="about-con2-down">
+                        <div class="about-con2-down-l">
+                          <p>従業員数</p>
+                        </div><!--about-con2-down-l-->
+                           <div class="about-con2-down-r">
+                             <p>30名</p>
+                           </div><!--about-con2-down-r-->
+                      </div><!--about-con2-down-->
+
+                      <div class="about-con2-down">
+                          <div class="about-con2-down-l-2">
+                            <p>主要取引先</p>
+                          </div><!--about-con2-down-l-->
+                             <div class="about-con2-down-r">
+                               <p>グーグル合同会社<br>アマゾンジャパン合同会社<br>ソフトバンク株式会社</p>
+                             </div><!--about-con2-down-r-->
+                        </div><!--about-con2-down-->
+        　　　　　　　　　　　　　
+                </div><!--aaa-->
+             </div><!--about-content2-->
+
+        　　　<div class="about-content3">
+               <div class="about-con2-up">
+                  <h3>アクセス</h3>
+               </div><!--about-content2-up-->
+                 <div class="about-con3-up">
+                    <div class="about-con3-up-1">
+                      <p>〒160-0022 東京都新宿区新宿1-9-1　第2タケビル3階</p>
+                    </div><!--about-content3-up-1-->
+                    <div class="about-con3-up-2">
+                      <p>東京メトロ　丸の内線　新宿御苑駅　徒歩3分</p>
+                    </div><!--about-content3-up-2-->
+                 </div><!--about-content3-up-->
+                     <div class="about-con3-down">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6481.076425656075!2d139.712822!3d35.688371!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ce9ecb075df%3A0xd2c0bd4306573d0b!2z44CSMTYwLTAwMjIg5p2x5Lqs6YO95paw5a6_5Yy65paw5a6_77yR5LiB55uu77yZ4oiS77yR!5e0!3m2!1sja!2sjp!4v1586356676634!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                     </div><!--about-content3-down-->
+
+             </div><!--about-content3-->
+             <div class="footer">
+               <div class="footer-up">
+                 <img src="img/menu-left.png">
+               </div><!--footer-up-->
+                  <div class="footer-down">
+                    <ul>
+                                <li><a href="force.html"><p>HOME</p></a></li>
+                                <li><a href="about.html"><p>About</p></a></li>
+                                <li><a href="recruit.html"><p>Recruit</p></a></li>
+                                <li><a href="contact.html"><p>Contact</p></a></li>
+                                <li><a href="access.html"><p>Access</p></a></li>
+
+                    </ul>
+                  </div><!--footer-down-->
+             </div><!--footer-->
+              <div class="footer-copy">
+                 <p>Copyright ©︎2019 Force Promote inc.</p>
+              </div><!--footer-copy-->
+
+
+
+
+
+
+
+
+
+
+</div><!--wrapper-->
+</body>
+</html>
