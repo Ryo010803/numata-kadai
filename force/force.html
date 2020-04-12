@@ -21,30 +21,24 @@
 
 <script>
 $(function(){
-$(window).scroll(function(){
+    $(window).scroll(function(){
        console.log($(this).scrollTop());
        if($(this).scrollTop() >300){
-        $(".menu").css('backgroundColor','#2d2d3b');
-      }else{
-         $(".menu").css('backgroundColor','rgba(0, 0, 0, 0)');
-     };
+             $(".menu").css('backgroundColor','#2d2d3b');
+       }else{
+             $(".menu").css('backgroundColor','rgba(0, 0, 0, 0)');
+       };
+    });
 
+    $('.zdo_drawer_button').click(function () {
+       $(this).toggleClass('active');
+    });
 
-  $('.zdo_drawer_button').click(function () {
-    $(this).toggleClass('active');
-
-});
-
-$(".respon-open-menu").on("click",function(){
-    $(".respon-menu-right").slideToggle(1000);
-
-
-});
-
+    $(".respon-open-menu").on("click",function(){
+       $(".respon-menu-right").slideToggle(1000);
+    });
 
 });
-});
-
 </script>
 </head>
 <body>
