@@ -31,6 +31,20 @@ $(function(){
      };
   });
 
+  $('.remote-con h4').addClass('move');
+  $(window).scroll(function(){
+    $(".remote-con").each(function(){
+      var imgPos = $(this).offset().top;
+      var scroll = $(window).scrollTop();
+      var windowHeight = $(window).height();
+      if (scroll > imgPos - windowHeight + windowHeight/5){
+        $(this).find("h4").removeClass('move');
+      } else {
+        $(this).find("h4").addClass('move');
+      }
+    });
+  });
+
 
 
 
@@ -84,28 +98,19 @@ $(function(){
        <img src="img/menu-slide1.jpg">
        </div>
        <div class="slide-abso cf">
-            <div class="slide-abso-l">
-                 <p>THE WORLD THAT LIBASE THINKS</p>
-            </div><!--slide-abso-l-->
-            <div class="slide-abso-cen">
-                 <div class="slide-abso-cen-up">
+                 <h2>THE WORLD THAT LIBASE THINKS</h2>
                       <h3>Create it</h3><br><h3>for liberty.</h3>
-                 </div><!--slide-abso-cen-up-->
-                 <div class="slide-abso-cen-down">
                       <h4>人々をもっと自由に、幸せに。</h4>
                       <p>どのような境遇でもあらゆる機会と<br>可能性にアクセスできる社会をつくる。<br>
                       テクノロジーとビジョンを軸に<br>社会を明確に変えていく、そんな会社です。</p>
-                 </div><!--slide-abso-cen-down-->
-            </div><!--slide-abso-cen-->
-            <div class="slide-abso-r">
-                <p>SCROLl</p>
-            </div><!--slide-abso-r-->
-       </div><!--slide-abso-->
+                     <span>SCROLl</span>
+      </div><!--slide-abso-->
   </div><!--slide-->
   <div class="remote">
        <img src="img/remote.jpg">
        <div class="remote-con">
                <p>Working <span>Anywhere</span></p>
+                      <span>・・</span>
                       <h3>地球ではたらく</h3>
                       <h4>フルリモートワーク総勢100名以上</h4>
                       <h5>「どこでも働けて暮らせる」<br>場所から人を解放し、自分の可能性や価値を追求できる世界を創る。<br>
@@ -117,6 +122,28 @@ $(function(){
        <h2>OUR</h2><br>
        <p>BUSSINESS</p>
   </div><!--bussiness-up-->
+  <div class="bussiness cf">
+       <div class="bussiness-l">
+            <img src="img/bussiness-l.jpg">
+            <div class="bussiness-l-con">
+                <h3>UnicornDesigns</h3>
+                <h4>あたらしいweb・デザイン発注サービス</h4>
+               <p>zzz</p>
+            </div><!--bussiness-l-con-->
+       </div><!--bussiness-l-->
+
+
+
+
+
+
+
+
+
+
+
+  </div><!--bussiness-->
+
 
 
 

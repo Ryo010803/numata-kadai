@@ -186,48 +186,42 @@ z-index:1;
 top:30%;
 left:5%;
 }
-.slide-abso-l{
+.slide-abso h2{
 width:5%;
 float:left;
 writing-mode: vertical-rl;
-}
-.slide-abso-l p{
 font-size:1vw;
 color:#fff;
 }
-.slide-abso-cen{
-width:90%;
-marigin-left:10%;
-float:left;
-}
-.slide-abso-cen-up h3{
+
+.slide-abso h3{
+  width:90%;
+  marigin-left:10%;
+  float:left;
   font-size:5vw;
   color:#fff;
   border-bottom:2px solid #fff;
   line-height:1.5;
 }
-.slide-abso-cen-down {
+.slide-abso h4 {
 padding:3% 0%;
+font-size:2.5vw;
+color:#fff;
 }
-.slide-abso-cen-down h4 {
-  font-size:2.5vw;
-  color:#fff;
-}
-.slide-abso-cen-down p {
+.slide-abso p {
   font-size:2vw;
   color:#fff;
   line-height:2;
 }
-.slide-abso-r{
+.slide-abso span{
 float:left;
 width:5%;
 writing-mode: vertical-rl;
-
-}
-.slide-abso-r p{
 font-size:1vw;
 color:#fff;
+margin-left:100%;
 }
+
 
 .remote{
 width:100%;
@@ -257,8 +251,13 @@ font-size:2vw;
 font-family: 'Lora', serif;
 letter-spacing: 0.2em;
 }
+.remote-con span{
+margin-left:5%;
+font-size:6vw;
+font-weight: bold;
+}
 .remote-con h3{
-padding:4% 0%;
+margin-bottom:4%;
 margin-left:5%;
 font-size:6vw;
 font-weight: bold;
@@ -273,6 +272,13 @@ font-weight: bold;
   background-color: #000;
   letter-spacing: 0.2em;
   text-align: center;
+  -webkit-transition: all 5s;
+    -webkit-transform: translate(0, 0);
+    opacity: 1;
+}
+.remote-con h4.move{
+  -webkit-transform: translate(-10px, 0);
+    opacity: 0;
 }
 .remote-con h5{
   padding:4% 0%;
@@ -296,4 +302,49 @@ text-align: right;
   font-family: 'Cormorant Garamond', serif;
   letter-spacing: 0.2em;
   font-weight: bold;
+}
+.bussiness{
+width:100%;
+}
+.bussiness-l{
+position:relative;
+float: left;
+width:50%;
+background: radial-gradient(ellipse at center, rgba(255,255,255,0) 40%,rgba(255,255,255,0.5) 60%,rgba(255,255,255,1) 100%),url(./img/bussiness-l.jpg);
+}
+.bussiness-l img{
+width:100%;
+
+}
+.bussiness-l-con{
+position:absolute;
+top:5%;
+left:5%;
+}
+.bussiness-l-con h3{
+font-size:5vw;
+font-family: 'Lora', serif;
+color:#fff;
+padding:3% 0%;
+}
+.bussiness-l-con h4{
+font-size:3vw;
+font-family: 'Lora', serif;
+color:#fff;
+padding:3% 0%;
+}
+.bbb{
+border:1px solid;
+padding:3% 0%;
+background: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
+ box-sizing: border-box;
+  -webkit-text-fill-color: transparent;
+}
+.bbb p{
+
+font-size:2vw;
+font-family: 'Lora', serif;
+color:#fff;
+padding:3% 0%;
+
 }

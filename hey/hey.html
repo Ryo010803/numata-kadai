@@ -1,0 +1,72 @@
+<!doctype html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="respon.css">
+<title>hayfield 練習 </title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!--レスポンシブ-->
+
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<!--mein-font-->
+
+<script src="https://kit.fontawesome.com/71d52f16b4.js" crossorigin="anonymous"></script>
+<!--アイコン-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<!--jquery-->
+
+<script>
+
+$(function(){
+     $(window).scroll(function(){
+        console.log($(this).scrollTop());
+        if($(this).scrollTop() >300){
+             $(".menu").css('backgroundColor','#333');
+        }else{
+             $(".menu").css('backgroundColor','rgba(0, 0, 0, 0)');
+             };
+     });
+
+
+});
+</script>
+</head>
+<body>
+<div class="wrapper">
+     <div class="menu">
+          <div class="menu-l">
+               <img src="img/hey-logo.png">
+          </div><!--menu-l-->
+          <div class="menu-r">
+               <ul>
+                   <li>Mission</li>
+                   <li>Service</li>
+                   <li>News</li>
+                   <li>Company</li>
+                   <li>Contact</li>
+               </ul>
+          </div><!--menu-r-->
+     </div><!--menu-->
+     <div class="top">
+          <img src="img/hey-topback.jpg">
+          <div class="top-mein">
+               <img src="img/hey-topmein.png">
+               <p>Scroll</p>
+          </div><!--top-mein-->
+      </div><!--top-->
+
+
+
+
+
+
+
+
+
+
+</div>
+<!--wrapper-->
+
+</body>
+</html>
