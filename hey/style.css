@@ -89,3 +89,73 @@ font-size: 2vw;
 color:#fff;
 font-family: 'Shadows Into Light';
 }
+.mission{
+position:relative;
+background-color: #3A7F35;
+width:100%;
+padding:10% 0%;
+text-align: center;
+}
+.mission h2{
+font-size:3vw;
+color:#fff;
+font-family: 'Shadows Into Light';
+}
+.mission h3{
+  padding:3% 0%;
+font-size:2vw;
+color:#fff;
+}
+.mission p{
+  padding:3% 5%;
+font-size:1.5vw;
+color:#fff;
+line-height:2;
+letter-spacing:0.1em;
+}
+.mission-img{
+position:absolute;
+text-align: left;
+}
+.mission-img img{
+width:50%;
+}
+.service{
+background-color: #000;
+}
+.service-con{
+  display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+   -webkit-box-align:center;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -webkit-box-pack: center;
+     -ms-flex-pack: center;
+      justify-content: center;
+      width:100%;
+      padding:20% 5%;
+}
+.service-l{
+width:40%;
+padding:0% 5%;
+}
+.service-l h2{
+  font-size:5vw;
+  color:#fff;
+  font-family: 'Shadows Into Light';
+}
+.service-l p{
+  font-size:2vw;
+  color:#fff;
+  padding:20% 0%;
+  line-height:1.5;
+}
+.service-r{
+width:60%;
+}
+.service-r img{
+width:100%;
+}
