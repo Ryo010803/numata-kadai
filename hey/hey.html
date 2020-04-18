@@ -29,6 +29,36 @@ $(function(){
      });
 
 
+     $('.ser-down').addClass('move');
+          $(window).scroll(function(){
+                $(".ser-down-r").each(function(){
+                         var imgPos = $(this).offset().top;
+                         var scroll = $(window).scrollTop();
+                         var windowHeight = $(window).height();
+                         if (scroll > imgPos - windowHeight + windowHeight/5){
+                $(this).find("ser-down").removeClass('move');
+              } else {
+              $(this).find("ser-down").addClass('move');
+              }
+          });
+     });
+
+     $('.missin-img img').addClass('move');
+          $(window).scroll(function(){
+                $(".mission-img").each(function(){
+                        var imgPos = $(this).offset().top;
+                        var scroll = $(window).scrollTop();
+                        var windowHeight = $(window).height();
+                        if (scroll > imgPos - windowHeight + windowHeight/5){
+                $(this).find("img").removeClass('move');
+                 } else {
+                 $(this).find("img").addClass('move');
+                 }
+            });
+      });
+
+
+
 });
 </script>
 </head>
@@ -79,7 +109,139 @@ $(function(){
                           <img src="img/service.png">
                      </div><!--service-r-->
                   </div><!--service-con-->
+　　　　　　　　　　　<div class="ser-down">
+                       <div class="ser-down-l">
+                            <img src="img/ser-down-l.jpg">
+                            <h3>宅建Jobエージェント</h3>
+                            <p>不動産業界/宅建士の求人・転職・募集なら【宅建jobエージェント】</p>
+                       </div><!--ser-down-l-->
+                       <div class="ser-down-r">
+                            <img src="img/ser-down-r.jpg">
+                            <h3>イエベスト</h3>
+                            <p>あなたの不動産取引をお手伝いするwebメディア</p>
+                       </div><!--ser-down-l-->
+                  </div><!--ser-down-->
             </div><!--service-->
+            <div class="news">
+                 <div class="news-l">
+                      <h3>News</h3>
+                 </div><!--news-l-->
+                 <div class="news-r">
+                      <div class="news-con">
+                           <div class="news-r-l">
+                                <span>2020.03.27</span>
+                           </div><!--news-r-l-->
+                           <div class="news-r-cen">
+                                <p>news</p>
+                           </div><!--news-r-cen-->
+                           <div class="news-r-r">
+                                <p>新型コロナウイルス感染症拡大に備えたリモートワーク(在宅勤務)大勢への
+                                移行に関するお知らせ(4/2追記)</p>
+                           </div><!--news-r-r-->
+                       </div><!--news-con-->
+                       <div class="news-con">
+                            <div class="news-r-l">
+                                 <span>2019.11.18</span>
+                            </div><!--news-r-l-->
+                            <div class="news-r-cen">
+                                 <p>news</p>
+                            </div><!--news-r-cen-->
+                            <div class="news-r-r">
+                                 <p>年末年始休業期間のお知らせ</p>
+                            </div><!--news-r-r-->
+                        </div><!--news-con-->
+                        <div class="news-con">
+                             <div class="news-r-l">
+                                  <span>2019.10.01</span>
+                             </div><!--news-r-l-->
+                             <div class="news-r-cen">
+                                  <p>news</p>
+                             </div><!--news-r-cen-->
+                             <div class="news-r-r">
+                                  <p>コーポレートサイトをリニューアルしました</p>
+                             </div><!--news-r-r-->
+                         </div><!--news-con-->
+                 </div><!--news-r-->
+            </div><!--news-->
+            <div class="company">
+                 <div class="company-l">
+                      <div class="company-l-up">
+                           <h3>Company</h3>
+                      </div><!--company-l-up-->
+                           <div class="company-l-con">
+                                <div class="company-l-con-a">
+                                    <p>所在地</p>
+                                </div><!--company-l-con-a-->
+                                <div class="company-l-con-b">
+                                    <p>〒104-0033<br>東京都中央区新川1-3-21</p>
+                                </div><!--company-l-con-b-->
+                           </div><!--company-l-con-->
+                           <div class="company-l-con">
+                                <div class="company-l-con-a">
+                                    <p>資本金</p>
+                                </div><!--company-l-con-a-->
+                                <div class="company-l-con-b">
+                                    <p>300万円</p>
+                                </div><!--company-l-con-b-->
+                           </div><!--company-l-con-->
+                           <div class="company-l-con">
+                                <div class="company-l-con-a">
+                                    <p>代表者</p>
+                                </div><!--company-l-con-a-->
+                                <div class="company-l-con-b">
+                                    <p>杉浦健太</p>
+                                </div><!--company-l-con-b-->
+                           </div><!--company-l-con-->
+                           <div class="company-l-con">
+                                <div class="company-l-con-a">
+                                    <p>事業内容</p>
+                                </div><!--company-l-con-a-->
+                                <div class="company-l-con-b">
+                                    <p>人材紹介業<br>採用コンサルティング事業<br>webメディア「イエベスト」の運営<br>
+                                    MEO対策サービスの提供<br>ホームページ制作事業<br>広告代理事業</p>
+                                </div><!--company-l-con-b-->
+                           </div><!--company-l-con-->
+                           <div class="company-l-con">
+                                <div class="company-l-con-a">
+                                    <p>許可番号</p>
+                                </div><!--company-l-con-a-->
+                                <div class="company-l-con-b">
+                                    <p>厚生労働大臣許可番号　13-ユ-311453</p>
+                                </div><!--company-l-con-b-->
+                           </div><!--company-l-con-->
+                 </div><!--company-l-->
+                 <div class="company-r">
+                      <img src="img/company-r.jpg">
+                 </div><!--company-r-->
+          </div><!--company-->
+                 <div class="contact">
+                           <img src="img/contact.jpg">
+
+                      <div class="contact-con">
+                           <h3>Contact</h3>
+                           <h4>弊社のサービスのご相談、お問い合わせは以下からお願い致します。</h4>
+                           <p>Contact</p>
+                      </div><!--contact-con-->
+                 </div><!--contact-->
+                 <div class="footer">
+                   <div class="footer-l">
+                        <img src="img/hey-logo.png">
+                   </div><!--menu-l-->
+                   <div class="footer-r">
+                        <ul>
+                            <li>Mission</li>
+                            <li>Service</li>
+                            <li>News</li>
+                            <li>Company</li>
+                            <li>Contact</li>
+                            <li>Privacy Policy</li>
+                        </ul>
+                   </div><!--menu-r-->
+                 </div><!--footer-->
+
+
+
+
 
 
 

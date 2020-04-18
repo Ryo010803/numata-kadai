@@ -21,13 +21,12 @@ display:-webkit-box;
 }
 .menu-l{
 width:20%;
-margin-left:5%;
 }
 .menu-l img{
 width:50%;
 }
 .menu-r{
-margin-left: 25%;
+margin-left: 5%;
 width:50%;
 }
 .menu-r ul{
@@ -116,12 +115,21 @@ letter-spacing:0.1em;
 .mission-img{
 position:absolute;
 text-align: left;
+z-index:1;
 }
 .mission-img img{
 width:50%;
+-webkit-transition: all 3s;
+  -webkit-transform: translate(0, 0);
+  opacity: 1;
+}
+.mission-img img.move{
+  -webkit-transform: translate(-10px, 0);
+    opacity: 0;
 }
 .service{
 background-color: #000;
+position:relative;
 }
 .service-con{
   display:-webkit-box;
@@ -158,4 +166,311 @@ width:60%;
 }
 .service-r img{
 width:100%;
+}
+
+.ser-down{
+position: absolute;
+background-color:#E5E5E5;
+top:75%;
+left:20%;
+z-index:1;
+padding:5% 5%;
+display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+ -webkit-box-align:center;
+  -webkit-align-items:center;
+  -ms-flex-align:center;
+  align-items:center;
+  -webkit-box-pack: center;
+   -ms-flex-pack: center;
+    justify-content: center;
+    width:80%;
+    text-align: right;
+    -webkit-transition: all 1s;
+    -webkit-transform: translate(0, 0);
+    opacity: 1;
+  }
+  .ser-down .move {
+    -webkit-transform: translate(10px, 0);
+    opacity: 0;
+  }
+
+.ser-down-l{
+width:50%;
+text-align:center;
+overflow: hidden;
+}
+.ser-down-l img{
+width:80%;
+	transition-duration: 0.3s;
+}
+.ser-down-l img:hover{
+  opacity:0.6;
+  transform: scale(1.1);
+  	transition-duration: 0.3s;
+}
+.ser-down-l h3{
+padding:3% 0%;
+font-size:2vw;
+}
+.ser-down-l p{
+  padding:3% 0%;
+  font-size:1vw;
+}
+.ser-down-r{
+width:50%;
+text-align:center;
+overflow: hidden;
+}
+.ser-down-r img{
+width:80%;
+	transition-duration: 0.3s;
+}
+.ser-down-r img:hover{
+  opacity:0.6;
+  transform: scale(1.1);
+  	transition-duration: 0.3s;
+}
+.ser-down-r h3{
+padding:3% 0%;
+font-size:2vw;
+}
+.ser-down-r p{
+  padding:3% 0%;
+  font-size:1vw;
+}
+.news{
+  display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+   -webkit-box-align:center;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -webkit-box-pack: center;
+     -ms-flex-pack: center;
+      justify-content: center;
+      width:100%;
+      padding:25% 5%;
+
+}
+.news-l{
+width:20%;
+}
+.news-l h3{
+font-size:5vw;
+font-family: 'Shadows Into Light';
+}
+.news-r{
+width:70%;
+margin-left:10%;
+}
+.news-con{
+  padding:5% 0%;
+  border-bottom:1px solid #E5E5E5;
+  display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+   -webkit-box-align:center;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -webkit-box-pack: center;
+     -ms-flex-pack: center;
+      justify-content: center;
+}
+.news-r-l{
+width:10%;
+text-align: center;
+margin-right: 8%;
+}
+.news-r-l span{
+font-size:1.5vw;
+font-weight: bold;
+}
+.news-r-cen{
+width:10%;
+margin-right:6%;
+text-align: center;
+border:1px solid  #3A7F35;
+background-color: #3A7F35;
+}
+.news-r-cen p{
+color:#fff;
+font-size:1.5vw;
+}
+.news-r-r{
+width:66%;
+}
+.news-r-r p{
+  font-size:1.5vw;
+  line-height:1.5;
+  }
+  .news-r-r p:hover{
+    color: #3A7F35;
+    }
+.company{
+background-color: #000;
+width:100%;
+display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+ -webkit-box-align:center;
+  -webkit-align-items:center;
+  -ms-flex-align:center;
+  align-items:center;
+  -webkit-box-pack: center;
+   -ms-flex-pack: center;
+    justify-content: center;
+}
+.company-l{
+padding:2% 10%;
+width:65%;
+
+}
+.company-l-up{
+margin-bottom: 5%;
+}
+.company-l-up h3{
+  font-size:5vw;
+  color:#fff;
+  font-family: 'Shadows Into Light';
+}
+.company-l-con{
+padding:5% 0%;
+  border-bottom:1px solid #E5E5E5;
+display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+ -webkit-box-align:center;
+  -webkit-align-items:center;
+  -ms-flex-align:center;
+  align-items:center;
+  -webkit-box-pack: center;
+   -ms-flex-pack: center;
+    justify-content: center;
+}
+.company-l-con-a{
+width:15%;
+margin-right:15%;
+}
+.company-l-con-a p{
+font-size:1vw;
+color:#fff;
+}
+.company-l-con-b{
+width:70%;
+}
+.company-l-con-b p{
+font-size:1vw;
+color:#fff;
+line-height:1.5;
+}
+.company-r{
+width:35%;
+}
+.company-r img{
+width:100%;
+}
+.contact{
+position:relative;
+}
+.contact img{
+width:100%;
+}
+.contact-con{
+position:absolute;
+text-align: center;
+padding:5% 0%;
+bottom:20%;
+left:25%;
+}
+.contact-con h3{
+color:#fff;
+padding:10% 0%;
+font-size:4vw;
+font-family: 'Shadows Into Light';
+}
+.contact-con h4{
+  color:#fff;
+  padding:10% 0%;
+  font-size:1.5vw;
+}
+.contact-con p{
+  width:50%;
+  color:#3A7F35;
+  border:1px solid #fff;
+  background-color: #fff;
+  padding:3% 0%;
+  font-size:1.5vw;
+  margin-left:25%;
+}
+.footer{
+padding:5% 0%;
+width:100%;
+background-color: rgba(0, 0, 0, 0);
+display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+ -webkit-box-align:center;
+  -webkit-align-items:center;
+  -ms-flex-align:center;
+  align-items:center;
+  -webkit-box-pack: center;
+   -ms-flex-pack: center;
+    justify-content: center;
+}
+.footer-l{
+width:20%;
+margin-left:5%;
+}
+.footer-l img{
+width:50%;
+}
+.footer-r{
+margin-left: 5%;
+width:70%;
+}
+.footer-r ul{
+  display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+   -webkit-box-align:center;
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -webkit-box-pack: center;
+     -ms-flex-pack: center;
+      justify-content: center;
+}
+.footer-r ul li{
+padding:0% 4%;
+font-size:1.3vw;
+font-family: 'Shadows Into Light';
+position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+.footer-r ul li::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #000;
+  transform: scale(0, 1);
+  transform-origin: left top;
+  transition: transform .3s;
+}
+.footer-r ul li:hover::after {
+  transform: scale(1, 1);
 }
