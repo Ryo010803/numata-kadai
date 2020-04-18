@@ -1,0 +1,495 @@
+@media(max-width:590px){
+
+.wrapper {
+    min-width: 0;
+    position: relative;
+}
+.menu{
+padding:2% 0%;
+position:fixed;
+z-index:999;
+width:100%;
+background-color: rgba(0, 0, 0, 0);
+display:block;
+}
+.menu-l{
+width:45%;
+margin-left: 5%;
+}
+.menu-l img{
+width:50%;
+}
+.menu-r{
+width:100%;
+display: none;
+}
+.menu-r ul{
+  display:block;
+  text-align: center;
+}
+.menu-r ul li{
+padding:5% 0%;
+font-size:5vw;
+text-align: center;
+color:#fff;
+font-family: 'Shadows Into Light';
+position: relative;
+display: block;
+  text-decoration: none;
+}
+
+.respon-open-menu{
+display:block;
+width:30%;
+position:absolute;;
+top:10%;
+right:0%;
+}
+/*menuここまで*/
+
+.top{
+position: relative;
+}
+.top img{
+width:100%;
+height:50vh;
+}
+.top-mein{
+position: absolute;
+bottom:10%;
+}
+.top-mein img{
+width:100%;
+opacity:0.5;
+height:50vh;
+}
+.top-mein p{
+margin-left:80%;
+padding:0% 0%;
+writing-mode: vertical-rl;
+font-size: 5vw;
+color:#fff;
+font-family: 'Shadows Into Light';
+}
+.mission{
+position:relative;
+background-color: #3A7F35;
+width:100%;
+padding:15% 0%;
+text-align: left;
+}
+.mission h2{
+font-size:10vw;
+padding:0% 5%;
+color:#fff;
+font-family: 'Shadows Into Light';
+}
+.mission h3{
+  padding:3% 5%;
+font-size:5vw;
+color:#fff;
+}
+.mission p{
+  padding:3% 5%;
+font-size:4vw;
+color:#fff;
+line-height:2;
+letter-spacing:0.1em;
+}
+.mission-img{
+position:absolute;
+text-align: left;
+z-index:1;
+}
+.mission-img img{
+width:100%;
+-webkit-transition: all 3s;
+  -webkit-transform: translate(0, 0);
+  opacity: 1;
+}
+
+.service-con{
+  display:block;
+  width:100%;
+  padding:20% 5%;
+}
+.service-l{
+width:100%;
+padding:15% 5%;
+}
+.service-l h2{
+  font-size:10vw;
+  color:#fff;
+  font-family: 'Shadows Into Light';
+}
+.service-l p{
+  font-size:5vw;
+  color:#fff;
+  padding:10% 0%;
+  line-height:1.5;
+}
+.service-r{
+width:100%;
+}
+.service-r img{
+width:100%;
+}
+.ser-down{
+position: absolute;
+background-color:#E5E5E5;
+left:5%;
+top:90%;
+z-index:1;
+padding:0% 0%;
+display:block;
+width:100%;
+    text-align: right;
+    -webkit-transition: all 1s;
+    -webkit-transform: translate(0, 0);
+    opacity: 1;
+  }
+  .ser-down-l{
+  width:100%;
+  text-align:left;
+  overflow: hidden;
+  }
+  .ser-down-l img{
+  width:100%;
+  	transition-duration: 0.3s;
+  }
+
+  .ser-down-l h3{
+  padding:3% 0%;
+  font-size:7vw;
+  }
+  .ser-down-l p{
+    padding:3% 0%;
+    font-size:5vw;
+  }
+  .ser-down-r{
+  width:100%;
+  text-align:left;
+  overflow: hidden;
+  }
+  .ser-down-r img{
+  width:100%;
+  	transition-duration: 0.3s;
+  }
+
+  .ser-down-r h3{
+  padding:3% 0%;
+  font-size:7vw;
+  }
+  .ser-down-r p{
+    padding:3% 0%;
+    font-size:5vw;
+
+  }
+  .news{
+    display:block;
+    width:100%;
+    padding:20% 5%;
+    margin-top: 160%;
+  }
+  .news-l{
+  width:100%;
+  }
+  .news-l h3{
+  font-size:10vw;
+  font-family: 'Shadows Into Light';
+  }
+  .news-r{
+  width:100%;
+  margin-left:0%;
+  }
+  .news-con{
+    padding:5% 0%;
+    border-bottom:1px solid #E5E5E5;
+    display:block;
+  }
+  .news-r-l{
+  width:100%;
+  text-align: left;
+  margin-right: 0%;
+  padding:5% 0%;
+  }
+  .news-r-l span{
+  font-size:5vw;
+  font-weight: bold;
+  }
+  .news-r-cen{
+  width:50%;
+  margin-right:0%;
+  text-align: center;
+  border:1px solid  #3A7F35;
+  background-color: #3A7F35;
+  }
+  .news-r-cen p{
+  color:#fff;
+  font-size:7vw;
+  }
+  .news-r-r{
+  width:100%;
+  padding:5% 0%;
+  }
+  .news-r-r p{
+    font-size:5vw;
+    line-height:1.5;
+    }
+
+    .company{
+    background-color: #000;
+    width:100%;
+    display:block;
+    }
+    .company-l{
+    padding:10% 5%;
+    width:100%;
+
+    }
+    .company-l-up{
+    margin-bottom: 5%;
+    }
+    .company-l-up h3{
+      font-size:10vw;
+      color:#fff;
+      font-family: 'Shadows Into Light';
+    }
+    .company-l-con{
+    padding:5% 0%;
+    border-bottom:1px solid #E5E5E5;
+    display:block;
+    }
+    .company-l-con-a{
+    width:100%;
+    margin-right:0%;
+    padding:5% 0%;
+    }
+    .company-l-con-a p{
+    font-size:5vw;
+    color:#fff;
+    }
+    .company-l-con-b{
+    width:100%;
+    }
+    .company-l-con-b p{
+    font-size:4vw;
+    color:#fff;
+    line-height:1.5;
+    }
+    .company-r{
+    width:100%;
+    }
+    .company-r img{
+    width:100%;
+    height:30vh;
+    }
+    .contact{
+    position: static;
+    }
+    .contact img{
+    display:none;
+    }
+    .contact-con{
+    position:static;
+    text-align: left;
+    padding:5% 5%;
+    bottom:0%;
+    left:0%;
+    background-color: #E5E5E5;
+    }
+    .contact-con h3{
+    color:#000;
+    padding:10% 0%;
+    font-size:10vw;
+    font-family: 'Shadows Into Light';
+    }
+    .contact-con h4{
+      color:#000;
+      padding:10% 0%;
+      font-size:5vw;
+      line-height:1.5;
+    }
+    .contact-con p{
+      width:50%;
+      color:#3A7F35;
+      border:1px solid #fff;
+      background-color: #fff;
+      padding:3% 13%;
+      font-size:5vw;
+      margin-left:25%;
+    }
+    .footer{
+    padding:10% 0%;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0);
+    display:block;
+
+    }
+    .footer-l{
+      padding:0% 5%;
+    width:100%;
+    margin-left:0%;
+    }
+    .footer-l img{
+    width:50%;
+    }
+    .footer-r{
+    margin-left: 0%;
+    width:100%;
+    }
+    .footer-r ul{
+      display: block;
+    }
+    .footer-r ul li{
+      width:32%;
+    padding:5% 4%;
+    font-size:5vw;
+    font-family: 'Shadows Into Light';
+    position: relative;
+      display: inline-block;
+      text-decoration: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===============
+  This hamburger button was generated by Zarigani Design Office Hamburger Button Generator.
+
+  Zarigani Design Office's Hamburger Button
+  Copyright: 2019 Zarigani Design Office
+  URL: https://zarigani-design-office.com/hamburger/
+  This software is released under the MIT License.
+  http://opensource.org/licenses/mit-license.php
+  ================*/
+
+/*+++ Reset +++*/
+.zdo_drawer_button * {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  font: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-align: left;
+  text-decoration: none;
+  list-style: none;
+}
+
+.zdo_drawer_button {
+  display: block;
+  padding: 0;
+  width: 42px;
+  height: 26px;
+  position: relative;
+  background: none;
+  border: none;
+  text-align: center;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  outline: none;
+}
+
+.zdo_drawer_button .zdo_drawer_bar {
+  display: block;
+  width: 42px;
+  height: 2px;
+  transition: all 0.2s;
+  transform-origin: 0% 0%;
+  transform: translateY(-50%);
+  position: absolute;
+  left: 0;
+}
+
+.zdo_drawer_button .zdo_drawer_bar1 {
+  top: 0;
+}
+
+.zdo_drawer_button .zdo_drawer_bar2 {
+  top: 50%;
+}
+
+.zdo_drawer_button .zdo_drawer_bar3 {
+  top: 100%;
+}
+
+.zdo_drawer_button.active .zdo_drawer_bar {
+  width: 36.77px;
+  left: 8px
+}
+
+.zdo_drawer_button.active .zdo_drawer_bar1 {
+  transform: rotate(0.7853981633974483rad) translateY(-50%);
+  top: 0px
+}
+
+.zdo_drawer_button.active .zdo_drawer_bar2 {
+  opacity: 0;
+}
+
+.zdo_drawer_button.active .zdo_drawer_bar3 {
+  transform: rotate(-0.7853981633974483rad) translateY(-50%);
+  top: calc(100% - 0px)
+}
+
+
+/*+++ Default Button Color +++*/
+  .zdo_drawer_button {
+  color: #888;
+}
+
+.zdo_drawer_button .zdo_drawer_bar {
+  background-color: #888;
+}
+
+
+/*この下はresponのとじかっこ*/
+}
