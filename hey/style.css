@@ -193,13 +193,13 @@ display:-webkit-box;
     justify-content: center;
     width:80%;
     text-align: right;
-    -webkit-transition: all 1s;
+    -webkit-transition: all 3s;
     -webkit-transform: translate(0, 0);
     opacity: 1;
   }
-  .ser-down .move {
+  .move {
     -webkit-transform: translate(10px, 0);
-    opacity: 0;
+    opacity: 1;
   }
 
 .ser-down-l{

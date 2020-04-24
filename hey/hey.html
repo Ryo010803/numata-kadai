@@ -31,7 +31,7 @@ $(function(){
 
      $('.ser-down').addClass('move');
           $(window).scroll(function(){
-                $(".ser-down-r").each(function(){
+                $(".ser-down").each(function(){
                          var imgPos = $(this).offset().top;
                          var scroll = $(window).scrollTop();
                          var windowHeight = $(window).height();
@@ -43,7 +43,7 @@ $(function(){
           });
      });
 
-     $('.missin-img img').addClass('move');
+     $('.mission-img img').addClass('move');
           $(window).scroll(function(){
                 $(".mission-img").each(function(){
                         var imgPos = $(this).offset().top;
