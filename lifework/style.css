@@ -70,7 +70,9 @@ position: relative;
 .menu-b ul li a:hover::after {
   transform: scale(1, 1);
 }
-
+.respon-menu-b{
+display: none;
+}
 
 
 
@@ -124,9 +126,15 @@ color:#888;
 .menu-c-2:hover{
 opacity:0.6;
 }
+
+.respon-open-menu{
+display:none;
+}
 /*menuここまで*/
 /*ここからtop*/
 .top{
+width:100%;
+overflow: hidden;
 position:relative;
 display:-webkit-box;
   display:-webkit-flex;
@@ -416,7 +424,7 @@ text-align: center;
 line-height: 2;
 }
 .about-down-l-down-b p{
-font-size:1vw;
+font-size:0.8vw;
 }
 
 .about-down-r{
@@ -477,7 +485,7 @@ text-align: center;
 line-height: 2;
 }
 .about-down-r-down-b p{
-font-size:1vw;
+font-size:0.8vw;
 }
 
 /*ここまでabout*/

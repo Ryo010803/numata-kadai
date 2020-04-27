@@ -25,6 +25,17 @@ $(function(){
              };
      });
 
+     $('.zdo_drawer_button').click(function () {
+       $(this).toggleClass('active');
+
+     })
+
+     $(".respon-open-menu").on("click",function(){
+       $(".respon-menu-b").slideToggle(1500);
+
+
+     });
+
 
 
 });
@@ -55,6 +66,22 @@ $(function(){
                     <span>ご登録</span>
                </div><!--menu-c-2-->
           </div><!--menu-c-->
+          <div class="respon-open-menu">
+            <button type="button" class="zdo_drawer_button">
+            <span class="zdo_drawer_bar zdo_drawer_bar1"></span>
+            <span class="zdo_drawer_bar zdo_drawer_bar2"></span>
+            <span class="zdo_drawer_bar zdo_drawer_bar3"></span>
+           </button>
+          </div><!--respon-open-menu-->
+          <div class="respon-menu-b">
+               <ul>
+                  <li><a href="#concept-rinc">コンセプト</a></li>
+                  <li><a href="#about-rinc">当社について</a></li>
+                  <li><a href="#flow-rinc">サービスの流れ</a></li>
+                  <li><a href="#map-rinc">会社概要</a></li>
+                  <li><a>スタッフブログ</a></li>
+               </ul>
+          </div><!--respon-menu-b-->
      </div><!--menu-->
      <div class="top">
           <img src="img/top.jpg">
@@ -132,10 +159,11 @@ $(function(){
                <img src="img/about.gif">
           </div><!--about-img-->
           <div class="about-con">
-               <p>私たちライフワークは、熊本市を中心としたエリアで人材紹介を行う会社です。<br>
-人材紹介とは、厚生労働大臣の許可を受けた人材紹介会社（当社）が、<br>
-登録している求職者の希望に合ったお仕事（求人企業）を紹介するサービスで、<br>
-お仕事を探している求職者と働く人を探している求人企業にとって、<br>以下のようなメリットがあります。</p>
+               <p>私たちライフワークは、熊本市を中心としたエリアで人材紹介を行う会社です。
+                  人材紹介とは、厚生労働大臣の許可を受けた人材紹介会社（当社）が、
+                  登録している求職者の希望に合ったお仕事（求人企業）を紹介するサービスで、
+                  お仕事を探している求職者と働く人を探している求人企業にとって、
+                  以下のようなメリットがあります。</p>
           </div><!--about-con-->
           <div class="about-down">
                <div class="about-down-l">
