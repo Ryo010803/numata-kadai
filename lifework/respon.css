@@ -255,16 +255,30 @@ margin-right: 0%;
 .about-down-r-down-b p {
     font-size: 3vw;
 }
-
-
-
-
-
-
-
-
-
-/*ここまでabout*/
+.advan-up{
+width:100%;
+display:block;
+}
+.advan-con{
+width:100%;
+text-align: center;
+padding:0% 5%;
+}
+.advan-box-con {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+.advan-text h3 {
+    padding: 3% 0%;
+    font-size: 5vw;
+    color: #56b7e2;
+}
+.advan-text p {
+    padding: 3% 0%;
+    font-size: 3vw;
+    line-height: 2;
+}
 .advan-box {
     position: relative;
     width: 100%;
@@ -272,6 +286,316 @@ margin-right: 0%;
     border-radius: 50%;
     background-color: #fff;
 }
+/*ここまでadvan*/
+/*ここからflow*/
+.flow-con {
+    padding: 0% 5%;
+}
+.flow-num {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+    border: 1px solid #0054a6;
+    width: 15%;
+    background-color: #0054a6;
+    text-align: center;
+    padding: 5% 0%;
+}
+.flow-num p {
+    color: #fff;
+    font-size: 4vw;
+}
+.flow-box-box {
+    padding: 2% 2%;
+    display: block;
+}
+.flow-box-l {
+    width: 100%;
+    border-right: 0px solid #888;
+}
+.flow-box-l-l {
+    width: 100%;
+    float: none;
+}
+.flow-box-l-r {
+    width: 100%;
+    float: none;
+    padding: 5% 0%;
+    text-align: center;
+}
+.flow-box-l-r p {
+    color: #0054a6;
+    font-size: 5vw;
+}
+.flow-box-r {
+    width: 100%;
+    padding: 0% 2%;
+}
+.flow-box-r-up p {
+    line-height: 2;
+    font-size: 3vw;
+}
+.flow-box-r-down {
+    border: 1px solid #0054a6;
+    width: 100%;
+    padding: 3% 29%;
+    text-align: center;
+}
+.flow-box-r-down-p p {
+    font-size: 4vw;
+    color: #0054a6;
+}
+.flow-box-r-down-i i {
+    font-size: 5vw;
+    color: #0054a6;
+}
+/*ここまでflow*/
+/*ここからjob*/
+.job {
+    background-color: #00aaea;
+    position: relative;
+    padding: 30% 5%;
+}
+.job-l {
+    position: absolute;
+    top: 78%;
+    left: 55%;
+    float: none;
+}
+.job-l img {
+    width: 30%;
+}
+.job-r {
+    float: none;
+    padding: 0% 0%;
+    width: 100%;
+    margin-left: 0%;
+}
+.job-r-1 {
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 60%;
+    text-align: center;
+    margin-left: 20%;
+    padding: 3% 0%;
+}
+.job-r-1 p {
+    color: #00aaea;
+    font-size: 5vw;
+}
+.job-r-2 {
+    padding: 3% 0%;
+    text-align: center;
+}
+.job-r-2 p {
+    line-height: 2;
+    color: #fff;
+    font-size: 6vw;
+    font-weight: bold;
+}
+.job-r-3 {
+    padding: 0% 0%;
+    text-align: left;
+}
+.job-r-3 p {
+    line-height: 2;
+    color: #fff;
+    font-size: 3.5vw;
+     opacity: 1;
+}
+.job-r-4 p {
+    font-weight: bold;
+    color: #fff;
+    font-size: 4vw;
+}
+
+/*ここまでjob*/
+/*ここからentry*/
+.entry {
+    background-color: #1155a3;
+    padding: 5% 0%;
+}
+.entry-padding {
+    padding: 5% 5%;
+}
+.entry-up {
+    padding: 10% 0%;
+    display:block;
+
+}
+.entry-up-l{
+text-align: center;
+}
+.entry-up-l p {
+    color: #fff;
+    letter-spacing: 0.2em;
+    line-height: 1.5;
+    font-size: 5vw;
+}
+.entry-up-cen {
+    content: "";
+    width: 77px;
+    height: 1px;
+    background: #fff;
+    position: relative;
+    top: -4px;
+    margin-left: 40%;
+    margin-right: 40%;
+    display: inline-block;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(-51deg);
+    -ms-transform: rotate(-51deg);
+    -o-transform: rotate(-51deg);
+    /* transform: rotate(-51deg); */
+}
+.entry-up-r {
+text-align: center;
+}
+.entry-up-r p {
+    color: #fff;
+    letter-spacing: 0.2em;
+    line-height: 1.5;
+    font-size: 4vw;
+}
+.entry-down {
+    padding: 3% 0%;
+    text-align: center;
+}
+.label {
+    float: left;
+    margin-right: 10%;
+    width: 20%;
+    padding: 2% 0%;
+    text-align: center;
+}
+.label p {
+    font-weight: bold;
+    color: #0054a6;
+    font-size: 3vw;
+}
+.info-must {
+    float: left;
+    width: 10%;
+    margin-right: 0%;
+    border: 1px solid #56b7e2;
+    background-color: #56b7e2;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.info-must p {
+    color: #fff;
+    font-size: 2vw;
+}
+.inputs {
+    float: none;
+    width: 100%;
+    background-color: #f0f0f0;
+    height: 5vh;
+}
+
+.info-month-1 {
+    width: 50%;
+    float: left;
+}
+.info-month-1-2 {
+    width: 50%;
+    float: left;
+    padding: 8% 0%;
+    margin-left: 0%;
+}
+.info-month-1-2 p {
+    font-size: 4vw;
+    font-weight: bold;
+}
+.info-month-2 {
+    width: 100%;
+    float:left;
+}
+.info-month-2-1 {
+    width: 10%;
+    float: left;
+    padding: 6% 0%;
+    text-align: left;
+}
+.info-month-2-2 {
+    width: 55%;
+    padding: 8% 0%;
+    float: left;
+    margin-left: 0%;
+}
+.info-month-2-2 p {
+    font-size: 4vw;
+    font-weight: bold;
+}
+.info-month-3 {
+    width: 100%;
+    float: none;
+}
+.info-month-3-1 {
+    width: 10%;
+    float: left;
+    padding: 6% 0%;
+    text-align: left;
+}
+.info-month-3-2 {
+    width: 55%;
+    padding: 8% 0%;
+    float: left;
+    margin-left: 0%;
+}
+.info-month-3-2 p {
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.place {
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+.place-l-up p {
+    font-size: 4vw;
+    opacity: 0.7;
+}
+.place-r {
+    float: left;
+    width: 40%;
+    margin-left: 20%;
+    margin-right:0%;
+    padding:3% 0%;
+}
+.place-r-up p {
+    font-size: 4vw;
+    opacity: 0.7;
+}
+.place-down-footer {
+    margin-left: 0%;
+}
+.place-down-up{
+margin-top:5%;
+}
+.place-down-up p{
+  font-size:4vw;
+  opacity:0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .zdo_drawer_button * {
