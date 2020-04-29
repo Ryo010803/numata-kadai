@@ -1064,6 +1064,7 @@ border-bottom:1px solid #f0f0f0;
 /*ここからfooter*/
 .footer{
 background-color: #000;
+display: block;
 }
 .footer-l{
 float:left;
@@ -1130,7 +1131,9 @@ padding:4% 0%;
 .footer-r ul li:hover{
 opacity:1;
 }
-
+.respon-footer{
+display:none;
+}
 
 
 
