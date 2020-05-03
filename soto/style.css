@@ -186,3 +186,308 @@ padding:2% 0%;
 width:100%;
 }
 /*ここまでtop3*/
+/*ここからvision*/
+.vision{
+padding:5% 10%;
+}
+/*ここまでvision*/
+/*ここからtop4*/
+.top4 img{
+width:100%;
+}
+/*ここまでtop4*/
+/*ここからvalue*/
+.value{
+padding:5% 5%;
+}
+.value-down{
+width:100%;
+padding:8% 0%;
+}
+.value-down-con{
+float:left;
+width:33%;
+padding:0% 3%;
+}
+.value-down-con-up{
+text-align: center;
+padding:5% 0%;
+}
+.value-down-con-up h3{
+font-size:1.5vw;
+font-weight: bold;
+letter-spacing: 0.1em;
+}
+.value-down-con-down{
+text-align: center;
+}
+.value-down-con-down p{
+font-size:1vw;
+line-height:2;
+}
+/*ここまでvalue*/
+/*ここからtop5*/
+.top5 img{
+width:100%;
+}
+/*ここまでtop5*/
+/*ここからservice*/
+.service{
+padding:5% 5%;
+}
+.service-up{
+margin-top:5%;
+text-align: center;
+}
+.service-up p{
+font-size: 1vw;
+letter-spacing: 0.1em;
+}
+.service-down{
+padding:8% 0%;
+}
+.service-down-con-text{
+float:left;
+width:30%;
+margin-left: 1%;
+margin-right: 1%;
+border:2px solid;
+padding:3% 0%;
+text-align: center;
+}
+.service-down-con-text p{
+font-size:1.5vw;
+letter-spacing: 0.1em;
+}
+/*ここまでservice*/
+/*ここからplat*/
+.plat{
+background-color: #f0f0f0;
+}
+.plat-up{
+text-align:center;
+padding:5% 0%;
+}
+.plat-up h3{
+font-size:2.5vw;
+font-weight: bold;
+letter-spacing: 0.1em;
+}
+.plat-up h3 span{
+border-bottom: 3px solid #009900;
+font-weight: bold;
+}
+.plat-up2{
+margin-top:5%;
+padding:0% 25%;
+text-align: center;
+}
+.plat-up2 p{
+  font-size: 1vw;
+  letter-spacing: 0.1em;
+  line-height: 2;
+}
+.plat-down1{
+padding:5% 5%;
+}
+.plat-down1-l{
+float: left;
+width:48%;
+margin-right:2%;
+}
+.plat-down1-l img{
+width:100%;
+}
+.plat-down1-r{
+float:left;
+width:48%;
+margin-left:2%;
+}
+.plat-down1-r h3{
+padding:3% 0%;
+font-size:1.2vw;
+font-weight: bold;
+}
+.plat-down1-r h4{
+padding:2% 0%;
+font-size:1vw;
+line-height: 2;
+}
+.plat-down1-r p{
+padding:2% 0%;
+font-size:1vw;
+line-height: 2;
+}
+.plat-down1-r span{
+font-size:1vw;
+}
+.plat-down2{
+padding:5% 0%;
+display:-webkit-box;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display:flex;
+ -webkit-box-align:center;
+  -webkit-align-items:center;
+  -ms-flex-align:center;
+  align-items:center;
+  -webkit-box-pack: center;
+   -ms-flex-pack: center;
+    justify-content: center;
+}
+
+figure {
+  position: relative;
+  overflow: hidden;
+  width: 33%;
+  padding:0% 3%;
+  height:30vh;
+}
+figure img{
+width:100%;
+}
+figcaption {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.6);
+  -webkit-transition: .3s;
+  transition: .3s;
+  opacity: 1;
+  padding:2% 5%;
+  text-align: center;
+}
+figcaption h3{
+color:#fff;
+font-size:1.3vw;
+font-weight:bold;
+}
+figcaption p{
+padding:2% 0%;
+color:#fff;
+font-size:0.8vw;
+line-height:2;
+}
+figcaption span{
+color:#fff;
+font-size:1vw;
+}
+figure:hover figcaption {
+  top: 0;
+  left: 0;
+}
+.plat-down3{
+padding:5% 3%;
+}
+.plat-down3-con{
+float:left;
+width:33%;
+padding:0% 3%;
+text-align: center;
+}
+.plat-down3-con img{
+width:100%;
+}
+.plat-down3-con p{
+font-size:1.3vw;
+line-height: 2;
+}
+.plat-down3-con span{
+padding:2% 0%;
+font-size:1vw;
+}
+.plat-down3-con p:hover{
+color:#FFCC99;
+}
+.plat-down3-con span:hover{
+color:#FFCC99;
+}
+.plat-down3-con iframe{
+width:100%;
+height:30vh;
+}
+/*ここまでplat*/
+/*ここからtop6*/
+.top6 img{
+width:100%;
+}
+/*ここまでtop6*/
+/*ここからshoyu*/
+.shoyu{
+padding:5% 6%;
+}
+.shoyu-l{
+float:left;
+width:48%;
+margin-right:2%;
+}
+.shoyu-l img{
+width:100%;
+}
+.shoyu-r{
+  float: left;
+  width:48%;
+  margin-left:2%;
+}
+.shoyu-r h3{
+  padding: 3% 0%;
+  font-size: 1.2vw;
+  font-weight: bold;
+}
+.shoyu-r p{
+  padding: 2% 0%;
+  font-size: 1vw;
+  line-height: 2;
+  }
+.shoyu-r span{
+font-size:1vw;
+}
+/*ここまでshoyu*/
+/*ここからtop7*/
+.top7 img{
+width:100%;
+}
+/*ここまでtop7*/
+/*ここからcommunication,box*/
+.box{
+padding:5% 5%;
+}
+.box-up{
+position: relative;
+float:left;
+width:25%;
+padding:0% 3%;
+}
+
+.box-up img{
+width:100%;
+}
+.box-up-abso{
+position:absolute;
+left:20%;
+top:40%;
+text-align: center;
+}
+.box-up-abso-2{
+position:absolute;
+left:45%;
+top:40%;
+text-align: center;
+}
+.box-up-abso p{
+font-size:1.5vw;
+letter-spacing:0.1em;
+font-weight:bold;
+color:#fff;
+}
+.box-up-abso-2 p{
+font-size:1.5vw;
+letter-spacing:0.1em;
+font-weight:bold;
+color:#fff;
+}
+
+/*ここまでcommunication,box*/
