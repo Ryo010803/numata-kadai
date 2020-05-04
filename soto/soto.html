@@ -16,8 +16,27 @@
 <!--アイコン-->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <!--jquery-->
+<script>
+        $(function(){
+                 $(".service-down-con-text").on("mouseover",function(){
+                        $("#typo").css({
+                               color: "#fff",
+                               backgroundColor: "#000"
+                        });
+                 });
+
+//マウスアウトしたときに元の色に戻る
+                 $(".service-down-con-text").on("mouseout",function(){
+                        $("#typo").css({
+                               color: "000",
+                               backgroundColor: "fff"
+                         });
+                  });
+
+       });
 
 
+</script>
 </head>
 <body>
 <div id="wrapper">
@@ -31,7 +50,7 @@
                    <li><a href="#media-linc">MEDIA</a></li>
                    <li><a href="#mission-linc">ABOUT US</a></li>
                    <li><a href="#service-linc">SERVICE</a></li>
-                   <li><a href="">COMPANY</a></li>
+                   <li><a href="#company-linc">COMPANY</a></li>
                    <li><a href="">RECRUIT</a></li>
                </ul>
           </div><!--menu-r-->
@@ -43,7 +62,8 @@
           <img src="img/top/top2.jpg">
      </div><!--top2-->
      <div class="content">
-          <div id="news-rinc" class="news">
+       <div id="news-linc">
+          <div class="news">
                <div class="news-up">
                     <h3><span>NEWS</span></h3>
                </div><!--news-up-->
@@ -94,6 +114,7 @@
                     </div><!--news-footer-->
                </div><!--news-down-->
           </div><!--news-->
+        </div><!--news-linc-->
 
           <div id="media-linc"class="news">
                <div class="news-up">
@@ -361,32 +382,250 @@
                            <div class="box-up-abso">
                                 <p>CONTENTS</p>
                            </div><!--box-up-abso-->
+                                <div class="caption">
+                                  <figcaption>
+                                     <h3>CONTENTS</h3>
+                                     <p>クライアントの課題に対してファクトの整理から
+                                        コミュニケーション戦略を立案。
+                                        それに基づき、主にフード、アウトドアジャンルで
+                                        メディアやSNSで取り上げられる
+                                        ようなPR視点でのコンテンツを開発、クリエイティブ
+                                        制作を実施。</p>
+                                    </figcaption>
+                                </div><!--caption-->
                 </div><!--box-up-->
                 <div class="box-up">
                     <img src="img/box/box2.jpg">
                            <div class="box-up-abso">
                                 <p>FOOD DESIGN</p>
                            </div><!--box-up-abso-->
+                           <div class="caption">
+                           　　　<figcaption>
+                              　　　　<h3>FOOD DESIGN</h3>
+                              　　　　<p>「ソトレシピ」を通じたフードクリエイティブノウハウを活かし、レシピコンテンツの開発、フードイベント、ケータリングなど様々なフードサービスを提供します。</p>
+                             　　</figcaption>
+                         </div><!--caption-->
+
                 </div><!--box-up-->
                 <div class="box-up">
                     <img src="img/box/box3.jpg">
                            <div class="box-up-abso-2">
                                 <p>PR</p>
                            </div><!--box-up-abso-->
+                           <div class="caption">
+                             <figcaption>
+                                <h3>PR</h3>
+                                <p>クライアントや社会の課題に合わせてストーリー性のある
+                                  コミュニケーション戦案を立案。
+                                   マスメディア、オウンドメディア、SNSマーケティング、
+                                   専門家マネジメント、調査など、多様な施策で
+                                   企業や商品の価値の向上に貢献します。
+                                   </p>
+                               </figcaption>
+                           </div><!--caption-->
+
                 </div><!--box-up-->
                 <div class="box-up">
                     <img src="img/box/box4.jpg">
                           <div class="box-up-abso">
                                <p>INFLUENCER</p>
                           </div><!--box-up-abso-->
+                          <div class="caption">
+                            <figcaption>
+                               <h3>INFLUENCER</h3>
+                               <p>アウトドア、旅、フードなどソトご飯ジャンルに特化したインフルエンサーをネットワーク化。
+                                 インスタグラマーから専門家まで、課題に合わせた最適な人物をキャスティングし、SNSを活用したマーケティングを実施。
+                                  </p>
+                              </figcaption>
+                          </div><!--caption-->
                 </div><!--box-up-->
+         </div><!--box-->
+                <div class="box-2 cf">
+                     <div class="box-up">
+                         <img src="img/box/box5.jpg">
+                                <div class="box-up-abso-3">
+                                     <p>MOVIE</p>
+                                </div><!--box-up-abso-3-->
+                                     <div class="caption">
+                                       <figcaption>
+                                          <h3>MOVIE</h3>
+                                          <p>レシピ動画からプロモーション動画、イベントレポート動画まで
+                                             「旅、キャンプとごはん。」の魅力を映像コンテンツ化して世の中に発信致します。</p>
+                                         </figcaption>
+                                     </div><!--caption-->
+                     </div><!--box-up-->
+                     <div class="box-up">
+                         <img src="img/box/box6.jpg">
+                                <div class="box-up-abso-3">
+                                     <p>EDITING</p>
+                                </div><!--box-up-abso-3-->
+                                <div class="caption">
+                                　　　<figcaption>
+                                   　　　　<h3>EDITING</h3>
+                                   　　　　<p>編集者、ライター、エディトリアルデザイナー、カメラマンと多様なクリエイターネットワークを活用し、WEB、出版物、映像など媒体を問わず、面白く役に立つ編集コンテンツを世の中に発信していきます。</p>
+                                  　　</figcaption>
+                              </div><!--caption-->
 
+                     </div><!--box-up-->
+                     <div class="box-up">
+                         <img src="img/box/box7.jpg">
+                                <div class="box-up-abso-2">
+                                     <p>WEB</p>
+                                </div><!--box-up-abso-->
+                                <div class="caption">
+                                  <figcaption>
+                                     <h3>WEB</h3>
+                                     <p>「ソトレシピ」でのメディア運営及び編集能力を活かし、企業や自治体のオウンドメディアやプロモーションのWEBサイトを開発・運営。</p>
+                                    </figcaption>
+                                </div><!--caption-->
 
-
-
-
-           </div><!--box-->
+                     </div><!--box-up-->
+                     <div class="box-up">
+                         <img src="img/box/box8.jpg">
+                               <div class="box-up-abso-4">
+                                    <p>LOCAL SOLUTION</p>
+                               </div><!--box-up-abso-4-->
+                               <div class="caption">
+                                 <figcaption>
+                                    <h3>LOCAL SOLUTION</h3>
+                                    <p>「アウトドア×地方創生」をテーマに地方自治体や地域企業の課題に対し、アウトドアやレジャーを通じて地域に増やす人を増やすことで地域の活性化に貢献します。
+                                       </p>
+                                   </figcaption>
+                               </div><!--caption-->
+                     </div><!--box-up-->
+           </div><!--box-2-->
       </div><!--communication-->
+      <div class="event">
+           <div class="plat-up">
+                <h3><span>イベント事業</span></h3>
+           </div><!--plat-up-->
+           <div class="plat-up2">
+                <p>キッチンカー、サンプリング、インスタレーション、PRイベント、フェスなどへの出展、ワークショップなど、「食」を中心とした様々なイベントを企画・運営。消費者とのリアルな接点を作り、オンラインとオフラインで相乗効果が出るようなイベントを仕掛けます。</p>
+           </div><!--plat-up2-->
+      </div><!--event-->
+      <div class="top8">
+           <img src="img/top/top8.jpg">
+      </div><!--top8-->
+      <div class="about">
+           <div class="news-up">
+                <h3><span>ABOUT CEO</span></h3>
+           </div><!--news-up-->
+           <div class="about-up">
+                <div class="about-up-l">
+                     <img src="img/soto-img/soto-img-7.jpg">
+                </div><!--about-up-l-->
+                <div class="about-up-r">
+                     <h3>代表取締役／アウトドアプロデューサー<p>千秋広太郎</p></h3>
+                     <h4>1983年、千葉県船橋市出身。明治大学政治経済学部卒。</h4>
+                     <h5>大学卒業後、エン・ジャパン㈱、㈱スタジオダンク、㈱ベクトルを経て、2016年株式会社シーザスターズ創業。
+クリエイティブ×PRのプロデュース経験を活かして様々な企業や地方自治体のコミュニケーションを支援。</h5>
+                     <h6>学生時代に、各地の美味しい物を食べるために、ひたすらママチャリをこぎ、キャンプをしながら日本列島と東南アジアを縦断する一人旅を実行。</h6>
+                     <h7>その経験を原点として「旅とキャンプとごはん。」をテーマに、人に喜んでいただけるようなサービスを創るべく日々奮闘。キャンプ料理ユニット「パエリアン」として、TV、書籍、雑誌などでも活動中。</h7>
+                </div><!--about-up-r-->
+           </div><!--about-up-->
+      </div><!--about-->
+      <div id="company-linc" class="company">
+           <div class="news-up">
+                <h3><span>COMPANY</span></h3>
+           </div><!--news-up-->
+           <div class="company-company">
+                <div class="company-text cf">
+                     <div class="company-text-l">
+                          <p>会社名</p>
+                     </div><!--company-text-l-->
+                     <div class="company-text-r">
+                          <p>株式会社シーザスターズ</p>
+                     </div><!--company-text-r-->
+                </div><!--company-text-->
+                <div class="company-text cf">
+                     <div class="company-text-l">
+                          <p>設立</p>
+                     </div><!--company-text-l-->
+                     <div class="company-text-r">
+                          <p>2016年8月1日</p>
+                     </div><!--company-text-r-->
+                </div><!--company-text-->
+                <div class="company-text cf">
+                     <div class="company-text-l">
+                          <p>資本金</p>
+                     </div><!--company-text-l-->
+                     <div class="company-text-r">
+                          <p>300万円</p>
+                     </div><!--company-text-r-->
+                </div><!--company-text-->
+                <div class="company-text cf">
+                     <div class="company-text-l">
+                          <p>代表取締役</p>
+                     </div><!--company-text-l-->
+                     <div class="company-text-r">
+                          <p>千秋広太郎</p>
+                     </div><!--company-text-r-->
+                </div><!--company-text-->
+                <div class="company-text cf">
+                     <div class="company-text-l">
+                          <p>取締役</p>
+                     </div><!--company-text-l-->
+                     <div class="company-text-r">
+                          <p>中川尚之</p>
+                     </div><!--company-text-r-->
+                </div><!--company-text-->
+                <div class="company-text cf">
+                     <div class="company-text-l">
+                          <p>事業内容</p>
+                     </div><!--company-text-l-->
+                     <div class="company-text-r-2">
+                          <p>■プラットフォーム事業</p>
+                            <p>■コミュニケーション事業</p>
+                              <p>■イベント事業</p>
+                     </div><!--company-text-r-->
+                </div><!--company-text-->
+                <div class="company-text cf">
+                     <div class="company-text-l">
+                          <p>所在地</p>
+                     </div><!--company-text-l-->
+                     <div class="company-text-r-2">
+                          <p>■東京本社</p>
+                            <p>東京都渋谷区神宮前3-16-17 VillaJin2・3F</p>
+                              <p>■福岡支社</p>
+                              <p>福岡県福岡市中央区大名1-1-3石井ビル405号（コトノハ株式会社内）</p>
+                     </div><!--company-text-r-->
+                </div><!--company-text-->
+           </div><!--company-company-->
+      </div><!--company-->
+      <div class="map">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.2612684857086!2d139.70777551525845!3d35.670568280196804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ca2f42105d9%3A0x3267d289f934bca6!2z44CSMTUwLTAwMDEg5p2x5Lqs6YO95riL6LC35Yy656We5a6u5YmN77yT5LiB55uu77yR77yW4oiS77yR77yX!5e0!3m2!1sja!2sjp!4v1588576862863!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div><!--map-->
+      <div class="footer">
+           <div class="footer-up">
+                <h3>SEE THE STARS</h3>
+           </div><!--footer-up-->
+           <div class="footer-down cf">
+                <div class="footer-down-l">
+                     <ul>
+                       <li><a href="#news-linc">NEWS</a></li>
+                       <li><a href="#media-linc">MEDIA</a></li>
+                       <li><a href="#mission-linc">ABOUT US</a></li>
+                       <li><a href="#service-linc">SERVICE</a></li>
+                       <li><a href="#company-linc">COMPANY</a></li>
+                       <li><a href="">RECRUIT</a></li>
+                     </ul>
+                </div><!--footer-down-l-->
+                <div class="footer-down-r">
+                     <h4>株式会社シーザスターズ</h4>
+                     <div class="footer-down-r-ip cf">
+                          <div class="footer-down-r-i">
+                               <i class="far fa-envelope"></i>
+                          </div><!--footer-down-r-i-->
+                          <div class="footer-down-r-p">
+                               <p>info@seethestars.jp</p>
+                          </div><!--footer-down-r-p-->
+                     </div><!--footer-down-r-ip-->
+                </div><!--footer-down-r-->
+           </div><!--footer-down-->
+           <div class="footer-footer">
+                <p>© 2019 SEE THE STARS INC. All Rights Reserved.</p>
+           </div><!--footer-footer-->
+      </div><!--footer-->
 
 
 

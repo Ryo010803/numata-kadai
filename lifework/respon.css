@@ -29,6 +29,7 @@ display: none;
 margin-left:0%;
 width:100%;
 padding:7% 0%;
+background-color: #fff;
 }
 .respon-menu-b ul{
   display:block;
@@ -134,7 +135,7 @@ text-align: center;
     font-size: 4vw;
 }
 .con-1-l {
-    width: 100%;
+    width: 95%;
     float: none;
     position: absolute;
     top: 65%;
