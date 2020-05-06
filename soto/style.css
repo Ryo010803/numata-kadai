@@ -23,6 +23,7 @@ letter-spacing:0.1em;
 font-family: 'Playfair Display', serif;
 }
 .menu-r{
+display: block;
 width:60%;
 margin-left:20%;
 float:left;
