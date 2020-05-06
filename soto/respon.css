@@ -25,7 +25,7 @@ letter-spacing:0.1em;
 font-family: 'Playfair Display', serif;
 }
 .menu-r{
-display:none;
+display: none;
 width:100%;
 margin-left:0%;
 float:none;
@@ -709,7 +709,7 @@ font-family: 'Playfair Display', serif;
 
 
 /*この下はresponのとじかっこ*/
-}
+
 
 
 }
