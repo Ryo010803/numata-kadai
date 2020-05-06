@@ -17,7 +17,7 @@
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <!--jquery-->
 <script>
-        $(function(){
+$(function(){
                  $(".service-down-con-text").on("mouseover",function(){
                         $("#typo").css({
                                color: "#fff",
@@ -33,7 +33,23 @@
                          });
                   });
 
-       });
+                  $('.zdo_drawer_button').click(function () {
+                    $(this).toggleClass('active');
+
+                  })
+
+                  $(".respon-open-menu").on("click",function(){
+                    $(".menu-r").slideToggle(1000);
+
+
+                  });
+
+
+
+
+
+
+});
 
 
 </script>
@@ -54,6 +70,14 @@
                    <li><a href="">RECRUIT</a></li>
                </ul>
           </div><!--menu-r-->
+
+          <div class="respon-open-menu">
+            <button type="button" class="zdo_drawer_button">
+            <span class="zdo_drawer_bar zdo_drawer_bar1"></span>
+            <span class="zdo_drawer_bar zdo_drawer_bar2"></span>
+            <span class="zdo_drawer_bar zdo_drawer_bar3"></span>
+           </button>
+          </div><!--respon-open-menu-->
      </div><!--menu-->
      <div class="top">
           <img src="img/top/top.png">
@@ -268,15 +292,21 @@
         </div><!--service-up-->
         <div class="service-down">
              <div class="service-down-con cf">
+                 <div class="res-service">
                    <div class="service-down-con-text">
                         <p>プラットフォーム事業</p>
                    </div><!--service-down-con-text-->
+                 </div><!--res-service-->
+                 <div class="res-service">
                    <div class="service-down-con-text">
                         <p>コミュニケーション事業</p>
                    </div><!--service-down-con-text-->
+                </div><!--res-service-->
+                <div class="res-service">
                    <div class="service-down-con-text">
                         <p>イベント事業</p>
                    </div><!--service-down-con-text-->
+                </div><!--res-service-->
              </div><!--service-down-con-->
         </div><!--service-down-->
       </div><!--service-->
@@ -302,6 +332,9 @@
                       <span>https://sotorecipe.com</span>
                 </div><!--plat-down1-r-->
            </div><!--plat-down1-->
+        <div class="res-top6">
+             <img src="img/top/top6.jpg">
+        </div><!--res-top6-->
            <div class="plat-down2">
                 <figure>
 　                       <img src="img/soto-img/soto-img-2.png">
