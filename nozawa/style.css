@@ -1,0 +1,308 @@
+#wrapper{
+min-width:1200px;
+}
+.menu{
+width:100%;
+position:fixed;
+z-index:999;
+background-color: #fff;
+top:0%;
+padding:2% 0%;
+}
+.menu-1{
+float:left;
+width:50%;
+margin-left:25%;
+text-align: center;
+}
+.menu-1 ul li{
+float:left;
+padding:0% 3%;
+}
+.menu-1 ul li a{
+font-size:1vw;
+font-family: 'Raleway', sans-serif;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+.menu-1 ul li a::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #088809;
+  transform: scale(0, 1);
+  transform-origin: left top;
+  transition: transform .3s;
+}
+.menu-1 ul li a:hover{
+color:#088809;
+}
+.menu-1 ul li a:hover::after {
+  transform: scale(1, 1);
+}
+.menu-2{
+float:left;
+margin-left:15%;
+width:10%;
+}
+.menu-2-a{
+float: left;
+width:50%;
+border-left: 5px solid #f0f0f0;
+text-align: center;
+}
+.menu-2-a i{
+color:#888;
+font-size:1.5vw;
+}
+.menu-2-a i:hover{
+opacity:0.5;
+}
+.menu-2-b{
+float: left;
+width:50%;
+border-left: 5px solid #f0f0f0;
+text-align: center;
+}
+.menu-2-b i{
+color:#888;
+font-size:1.5vw;
+}
+.menu-2-b i:hover{
+opacity:0.5;
+}
+/*menu*/
+/*slide*/
+.slide{
+width:100%;
+}
+.slide1{
+position: relative;
+}
+.slide1 img{
+width:100%;
+}
+.slide1-abso{
+position: absolute;
+top:50%;
+left:35%;
+text-align: center;
+}
+.slide1-abso h3{
+color:#fff;
+font-size:5vw;
+font-weight: bold;
+letter-spacing: 0.1em;
+font-family: 'Raleway', sans-serif;
+}
+.slide1-abso p{
+color:#fff;
+font-size:1.5vw;
+letter-spacing: 0.1em;
+margin-top:10%;
+}
+.slide1-abso-2{
+position: absolute;
+top:40%;
+left:27%;
+text-align: center;
+}
+.slide1-abso-2 h3{
+color:#fff;
+font-size:5vw;
+font-weight: bold;
+letter-spacing: 0.1em;
+font-family: 'Raleway', sans-serif;
+}
+.slide1-abso-2 p{
+color:#fff;
+font-size:1.5vw;
+letter-spacing: 0.1em;
+margin-top:10%;
+}
+/*slide*/
+/*text*/
+.text{
+padding:5% 25%;
+text-align: center;
+}
+.text p{
+font-size:1.5vw;
+line-height:1.5;
+}
+.textpic{
+padding:0% 15%;
+width:100%;
+}
+.textpic-l{
+float:left;
+width:50%;
+position: relative;
+}
+.textpic-l:hover{
+opacity:0.5;
+}
+.textpic-l img{
+width:100%;
+}
+.textpic-l-abso{
+background-color: rgba(255, 255, 255, 0.5);
+padding:10% 0%;
+width:100%;
+text-align: center;
+position: absolute;
+top:0%;
+}
+.textpic-l-abso h3{
+font-size:2vw;
+font-weight: bold;
+letter-spacing: 0.1em;
+}
+.textpic-r{
+float:left;
+width:50%;
+position:relative;
+}
+.textpic-r:hover{
+opacity: 0.5;
+}
+.textpic-r img{
+width:100%;
+}
+.textpic-r-abso{
+background-color: rgba(255, 255, 255,0.5);
+padding:10% 0%;
+width:100%;
+text-align: center;
+position: absolute;
+top:0%;
+}
+.textpic-r-abso h3{
+font-size:2vw;
+font-weight: bold;
+letter-spacing: 0.1em;
+}
+/*text*/
+/*news*/
+.news{
+padding:5% 15%;
+}
+.news-up{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.news-up p{
+font-size: 2vw;
+letter-spacing: 0.2em;
+font-weight: bold;
+}
+.news-up:before, .news-up:after {
+  border-top: 1px solid;
+  content: "";
+  width: 3em;
+}
+.news-up:before {
+  margin-right: 1em;
+}
+.news-up:after {
+  margin-left: 1em;
+}
+.news-down{
+padding:3% 0%;
+}
+.news-down-box-pic{
+position: relative;
+width:33%;
+float:left;
+padding:0% 2%;
+}
+.news-down-box-pic img{
+width:100%;
+}
+.news-down-box-pic:hover{
+opacity:0.5;
+}
+.box-pic-abso-up{
+position: absolute;
+top:5%;
+left:10%;
+}
+.box-pic-abso-up span{
+font-size:0.8vw;
+color:#fff;
+}
+.box-pic-abso-up p{
+padding:5% 0%;
+font-size:0.8vw;
+color:#fff;
+}
+.box-pic-abso-down{
+position: absolute;
+bottom:20%;
+left:10%;
+padding:3% 0%;
+border-bottom:2px solid #fff;
+}
+.box-pic-abso-down p{
+font-size:1.2vw;
+color:#fff;
+font-weight: bold;
+letter-spacing:0.1em;
+}
+/*news*/
+/*staff*/
+.staff{
+padding:5% 0%;
+}
+.staff-text{
+padding:2% 0%;
+text-align: center;
+}
+.staff-text p{
+font-size: 1.2vw;
+}
+.staff-pic{
+padding:5% 0%;
+text-align: center;
+}
+.staff-pic-l{
+float:left;
+width:48%;
+margin-right:2%;
+}
+.staff-pic-l-up{
+padding:3% 0%;
+text-align: center;
+}
+.staff-pic-l-up p{
+font-size: 1.2vw;
+font-weight: bold;
+}
+
+.staff-pic-l-down img{
+width:50%;
+border-radius: 50%;
+}
+.staff-pic-r{
+float:left;
+width:48%;
+margin-left:2%;
+}
+.staff-pic-r-up{
+padding:3% 0%;
+text-align: center;
+}
+.staff-pic-r-up p{
+font-size: 1.2vw;
+font-weight: bold;
+}
+
+.staff-pic-r-down img{
+width:50%;
+border-radius: 50%;
+}
